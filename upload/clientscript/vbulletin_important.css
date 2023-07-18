@@ -1,0 +1,62 @@
+/*======================================================================*\
+|| #################################################################### ||
+|| # vBulletin 3.8.11
+|| # ---------------------------------------------------------------- # ||
+|| # Copyright ©2000-2023 vBulletin Solutions Inc. All Rights Reserved. ||
+|| # This file may not be redistributed in whole or significant part. # ||
+|| # ---------------- VBULLETIN IS NOT FREE SOFTWARE ---------------- # ||
+|| #        www.vbulletin.com | www.vbulletin.com/license.html        # ||
+|| #################################################################### ||
+\*======================================================================*/
+
+/* Definitions we expect */
+form {
+	margin: 0px;
+}
+
+label {
+	cursor: default;
+}
+
+.normal {
+	font-weight: normal;
+}
+
+.inlineimg {
+	vertical-align: middle;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.vbmenu_hilite * {
+	cursor: pointer;
+}
+
+/* Auto-clearing of floats */
+.floatcontainer:after, .block_row:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.floatcontainer, .block_row {
+	display: inline-block;
+}
+/* IE-Mac hide \*/
+* html .floatcontainer, * html .block_row {
+	height: 1%;
+}
+.floatcontainer, .block_row {
+	display: block;
+}
+/* End IE-Mac hide */
+
+/*======================================================================*\
+|| ####################################################################
+|| # Downloaded: 23:08, Mon Jul 17th 2023 : $Revision: 92875 $
+|| # $Date: 2017-02-11 09:03:44 -0800 (Sat, 11 Feb 2017) $
+|| ####################################################################
+\*======================================================================*/

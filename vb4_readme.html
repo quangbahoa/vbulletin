@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title>vBulletin 4 - Readme</title>
+	<style type="text/css">
+	<!--
+	body {
+		font-family: verdana, arial, helvetica, sans-serif
+	}
+	p, li {
+		font-size: 80%;
+	}
+.click {
+	background-color: #F4F4F4;
+	border: 1px outset #BDC4BE;
+	padding: 1px;
+	margin: 1px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.directory {
+	font-family: "Courier New", Courier, mono;
+	color: #003366;
+}
+.vbarea {
+	background-color: #F9F9F9;
+	border: 1px solid #F4F4F4;
+	padding: 6px;
+	margin: 12px;
+}
+h2,h1 {
+	background-color: #F4F4F4;
+	margin: 0px;
+	padding: 3px;
+}
+	-->
+	</style>
+</head>
+
+<body>
+<div class="vbarea"><h1>vBulletin 4 Installation / Upgrade </h1></div>
+
+<hr />
+<div class="vbarea"><h2>vBulletin 4 zip file contents </h2>
+<p><span class="directory">do_not_upload/</span> folder (This folder
+contains
+  administration files. Only use these when you're told to upload it by a
+support
+  staff, or if you know what you're doing)<br />
+  `- file: tools.php (a script to help you fix (login) problems and rebuild
+caches
+  for usergroups, bitfields, etc.)<br />
+  `- file: searchshell.php (a php shell script to rebuild search index from
+console)<br />
+  `- file: vb_backup.sh (a bash shell script to backup the database,
+especially
+  handy for nightly backups)</p>
+<p><span class="directory">license_agreement.html</span> file (All customers
+  must agree to this license agreement prior to downloading and using the
+vBulletin
+  software, <a href="license_agreement.html">read it</a>) <br />
+  <span class="directory">vb4_readme.html</span> (HTML
+  version of this installation, upgrade, information file)<br />
+  <span class="directory">vb4_readme.txt</span> (TEXT version of this
+installation,
+  upgrade, information file)</p>
+<p><span class="directory">upload/</span> folder (This folder contains all
+the
+  files from the vBulletin forum software that you need to upload when
+installing
+  or upgrading)<br />
+  `- All the files inside this folder are required to run vBulletin, see the
+  below installation and/or upgrade instructions on which files to modify
+and/or
+  to delete after an installation or upgrade. </p></div>
+<hr />
+<div class="vbarea"><h2>Installing a new vBulletin 4 Community</h2>
+<p>First, unzip the vBulletin zip file you downloaded from the <a
+href="http://members.vBulletin.com/">members'
+area</a> to your hard disk and then open the <span
+class="directory">'upload/includes/'</span> folder.
+In this you will find <b>config.php.new</b>. You should rename this to
+<b>config.php</b> and
+then open it in a text editor.</p>
+<p>The config.php file is commented throughout, so you should be able to
+work
+  out what values to enter for the variables yourself.<br />
+  The values for the config.php file are described in detail <a
+href="http://www.vbulletin.com/docs/html/editconfig">here</a>. </p>
+<p>When you have finished, save the file and then upload the entire contents
+of the <span class="directory">'upload/'</span> folder to
+  your web server.</p>
+<p>When this is done, point your browser at http://<font
+color="red">www.example.com/forums/</font><b>install/install.php</b> (where
+<font
+color="red">www.example.com/forums/</font> is the URL of your vBulletin)</p>
+<p>The install will ask for your <b>Customer Number</b> to login.</p>
+<p>Once you are logged in you can proceed to follow the instructions on the
+screen. When ready click the <span class="click">Next Step</span> buttons
+until the script asks to fill in some addresses and names
+for your board.</p>
+<p>After you have done this, the installer will ask you for some details to
+set you up as the administrator of the new vBulletin. A few more clicks and
+the script will be finished.</p>
+<p>Before proceeding to the Admin Control Panel, you must delete the <span
+class="directory">'install/install.php'</span>  and
+  <span class="directory">'install/upgrade1.php'</span> files from your
+webserver. You may then enter the control
+  panel and start working on your new vBulletin!</p>
+<p>The entire installation process should take no more than five
+minutes.</p>
+<p>For a complete description of how to install vBulletin 4, see the <a
+href="http://www.vbulletin.com/docs/html/install">installation section</a>
+of the <a href="http://www.vbulletin.com/docs/html">vBulletin
+Manual</a>.</p>
+</div>
+<hr />
+<div class="vbarea"><h2>Upgrades</h2>
+<p>Before starting any upgrade to a new version of vBulletin the first step that
+should be done is to take a backup.</p>
+<p>You can find more information about backing up here: <a href="http://www.vbulletin.com/docs/html/manual_database_backup">Database Backup</a></p>
+
+<p>After backing up it may be a good idea to also disable your plugins, especially
+between major versions of vBulletin. You can do this a few ways:</p>
+<ul>
+<li>Disable from the config.php file: define("DISABLE_HOOKS", 1);</li>
+<li>Disable from the AdminCP: AdminCP > Settings > Options > Plugin & Product System > </li>
+<li>Disable one by one via the Product Manager</li>
+</ul>
+</div>
+<hr />
+<div class="vbarea"><h2>Upgrading from vBulletin 4.0.x</h2>
+<p>Close your board via the Admin Control Panel.</p>
+
+<p>Upload all files from the 'upload/' folder in the zip, with the exception of
+'install/install.php'. Then open the 'upload/includes/' folder. In this you
+will find config.php.new. You should rename this to config.php and then open
+it in a text editor.</p>
+
+<p>Open your browser and point the URL to
+http://www.example.com/forum/install/upgrade.php (where
+www.example.com/forums/ is the URL of your vBulletin). You should now be
+automatically forwarded to the appropriate upgrade script and step.</p>
+
+<p><b><span style="color:red;">If any errors occur, copy the error and please contact support. DO NOT continue 
+with the upgrade. Doing so may cause irreversible damage to the database.</span></b></p>
+
+<p>Follow the instructions on the screen. Make sure you click next step or
+proceed until you are redirected to your Admin Control Panel. Here, you can
+reopen your board.</p>
+
+</div>
+<hr />
+<div class="vbarea"><h2>Upgrading from vBulletin 3.8.4 </h2>
+<p>Close your board via the Admin Control Panel.</p>
+<p>Upload all files from the <span class="directory">'upload/'</span> folder
+  in the zip, with the exception of <span
+class="directory">'install/install.php'</span>.
+  Then open the <span class="directory">'upload/includes/'</span>
+folder.</p>
+<p>Open your browser and point the URL to http://<font
+color="red">www.example.com/forum/</font><b>install/upgrade.php</b> (where
+<font
+color="red">www.example.com/forums/</font> is the URL of your vBulletin).
+You should now be automatically forwarded to the appropriate upgrade script
+and step.</p>
+
+<p><b><span style="color:red;">If any errors occur, copy the error and please contact support. DO NOT continue 
+with the upgrade. Doing so may cause irreversible damage to the database.</span></b></p>
+
+<p>Follow the instructions on the screen. Make sure you click <span
+class="click">next
+    step</span> or <span class="click">proceed</span> until
+  you are redirected to your Admin Control Panel. Here, you can reopen your
+    board.</p>
+<p>For a complete description of how to upgrade from a previous version of
+vBulletin to the latest version, see the <a
+href="http://www.vbulletin.com/docs/html/upgrade">upgrade section</a> of the
+<a href="http://www.vbulletin.com/docs/html">vBulletin Manual</a>.</p>
+</div>
+<hr />
+<div class="vbarea"><h2>Upgrading from older versions of vBulletin</h2>
+<p>Before upgrading to vBulletin 4.0, you will need to download the files to
+upgrade to vBulletin 3.8.4. Once your community is running on vBulletin
+3.8.4, then you can upload the vBulletin 4.0 files and perform the upgrade
+to this version. If you need assistance with this, contact vBulletin
+Support.</p>
+
+<p><b>Note:</b> vBulletin 4.0 uses a new Template and Stylevar engine. This
+means your previous styles are not compatible with vBulletin 4.0. When you
+upgrade, they will be disabled and a new style will be created and set as
+the default style.</p>
+
+<p><b>Note:</b> There are several upgrade scripts that need to be run. You
+do not need to determine which you need to run; they will be determined
+automatically. Simply click "next step" or "proceed" until you are
+redirected to your admin control panel.</p>
+
+<p>When the scripts are complete, it will tell you to delete some files, and
+then redirect you to the Admin Control Panel. You should log in to this and
+proceed to the <i>Maintenance</i> section of the
+control panel, where you should run the Update Counters tools. The
+<i>Rebuild Search Index</i> and <i>Rebuild Statistics</i> will take a quite
+a long time to run on larger boards.</p>
+</div>
+<hr />
+<div class="vbarea"><h2>Appendix: More information </h2>
+<p>Here are some important links with more information: </p>
+
+<ul>
+  <li><strong>The vBulletin Online Manual</strong> (<a
+href="http://www.vBulletin.com/docs/html/">http://www.vBulletin.com/docs/htm
+l/</a>)
+    - With installation and upgrade instructions, indepth feature and
+options
+    information and more technical documents. </li>
+  <li><strong>The vBulletin Members Area</strong> (<a
+href="http://members.vBulletin.com/">http://members.vBulletin.com/</a>)
+    - Download area for vBulletin, private customer support tickets area,
+etc. </li>
+  <li><strong>The vBulletin Support Forums</strong> (<a
+href="http://www.vBulletin.com/forum/">http://www.vBulletin.com/forum/</a>)
+    - Free priority support forums, latest announcements with indepth
+release
+    details, etc. </li>
+</ul></div>
+<hr /><p align="center">Copyright &copy;2000 - 2009 vBulletin Solutions,
+Inc. All rights reserved.</p>
+</body>
+</html>
