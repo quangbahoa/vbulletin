@@ -26,6 +26,10 @@ vX.Y.Z/
 └── vb3_readme.html      # Official install/upgrade guide for that version
 ```
 
+## Styles — Contributions Welcome
+
+The [`styles/`](styles/) folder collects styles and skins for vBulletin 3.x. If you still have an old style from your forum, please send a pull request. Even an incomplete one (just the XML or just the images) helps. See [`styles/README.md`](styles/README.md) for the folder layout and how to export a style from the AdminCP.
+
 ## Quick Start (v3.8.11 with pre-installed database)
 
 1. Copy the contents of `v3.8.11/upload/` to your web root.
