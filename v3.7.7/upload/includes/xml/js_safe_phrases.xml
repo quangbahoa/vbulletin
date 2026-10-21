@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<phrases>
+	<phrase>browser_is_safari_no_wysiwyg</phrase>
+	<phrase>click_quick_reply_icon</phrase>
+	<phrase>dismiss</phrase>
+	<phrase>enter_email_link</phrase>
+	<phrase>enter_image_url</phrase>
+	<phrase>enter_link_text</phrase>
+	<phrase>enter_link_url</phrase>
+	<phrase>enter_list_item</phrase>
+	<phrase>enter_list_type</phrase>
+	<phrase>enter_option_x_tag</phrase>
+	<phrase>enter_tag_option</phrase>
+	<phrase>enter_text_to_be_formatted</phrase>
+	<phrase>iespell_not_installed</phrase>
+	<phrase>manage_attachments</phrase>
+	<phrase>message_too_short</phrase>
+	<phrase>moz_edit_config_file</phrase>
+	<phrase>moz_must_select_text</phrase>
+	<phrase>msn_functions_only_work_in_ie</phrase>
+	<phrase>must_enter_subject</phrase>
+	<phrase>must_select_text_to_use</phrase>
+	<phrase>select_a_file_to_attach</phrase>
+	<phrase>wysiwyg_command_invalid</phrase>
+	<phrase>wysiwyg_initialized</phrase>
+	<phrase>wysiwyg_please_wait</phrase>
+	<phrase>you_must_be_logged_into_msn_before_doing_this</phrase>
+	<phrase>go_x</phrase>
+	<phrase>insert_all</phrase>
+	<phrase>doubleclick_forum_markread</phrase>
+	<phrase>complete_image_verification</phrase>
+	<phrase>select_a_month</phrase>
+	<phrase>select_a_day</phrase>
+	<phrase>please_enter_a_proper_year</phrase>
+	<phrase>error_confirmation_phrase</phrase>
+	<phrase>server_failed_respond_try_again</phrase>
+	<phrase>edit_value_js</phrase>
+	<phrase>remove_from_userlist_confirm</phrase>
+	<phrase>have_new_pm_popup_x_y</phrase>
+	<phrase>open_message_in_new_window</phrase>
+	<phrase>window_open_failed_blocker</phrase>
+</phrases>
+
+<!-- CVS: $RCSfile$ - $Revision: 25657 $ -->
