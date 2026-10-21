@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<helptopics>
+<helpscript name="accessmask">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="edit" disp="1"></helptopic>
+	<helptopic act="modify" disp="1"></helptopic>
+	<helptopic act="quickedit" disp="1"></helptopic>
+	<helptopic act="resetall" disp="1"></helptopic>
+</helpscript>
+<helpscript name="admincalendar">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="add" disp="1"></helptopic>
+	<helptopic act="add,edit" opt="title" disp="20"></helptopic>
+	<helptopic act="add,edit" opt="displayorder" disp="40"></helptopic>
+	<helptopic act="add,edit" opt="customfields" disp="50"></helptopic>
+	<helptopic act="add,edit" opt="neweventemail" disp="60"></helptopic>
+	<helptopic act="add,edit" opt="moderatenew" disp="70"></helptopic>
+	<helptopic act="add,edit" opt="daterange" disp="75"></helptopic>
+	<helptopic act="add,edit" opt="default" disp="76"></helptopic>
+	<helptopic act="add,edit" opt="startofweek" disp="80"></helptopic>
+	<helptopic act="add,edit" opt="cutoff" disp="90"></helptopic>
+	<helptopic act="add,edit" opt="eventcount" disp="100"></helptopic>
+	<helptopic act="add,edit" opt="birthdaycount" disp="110"></helptopic>
+	<helptopic act="add,edit" opt="showbirthdays" disp="120"></helptopic>
+	<helptopic act="add,edit" opt="showholidays" disp="130"></helptopic>
+	<helptopic act="add,edit" opt="holidays" disp="135"></helptopic>
+	<helptopic act="add,edit" opt="showweekends" disp="140"></helptopic>
+	<helptopic act="add,edit" opt="allowhtml" disp="150"></helptopic>
+	<helptopic act="add,edit" opt="allowbbcode" disp="160"></helptopic>
+	<helptopic act="add,edit" opt="allowimgcode" disp="170"></helptopic>
+	<helptopic act="add,edit" opt="allowsmilies" disp="180"></helptopic>
+	<helptopic act="addcustom" disp="1"></helptopic>
+	<helptopic act="addcustom" opt="title" disp="20"></helptopic>
+	<helptopic act="addcustom" opt="description" disp="25"></helptopic>
+	<helptopic act="addcustom" opt="options" disp="30"></helptopic>
+	<helptopic act="addcustom" opt="allowentry" disp="40"></helptopic>
+	<helptopic act="addcustom" opt="length" disp="50"></helptopic>
+	<helptopic act="addcustom" opt="required" disp="60"></helptopic>
+	<helptopic act="addmod" disp="1"></helptopic>
+	<helptopic act="addmod" opt="modusername" disp="30"></helptopic>
+	<helptopic act="addmod,editmod" opt="calendarid" disp="20"></helptopic>
+	<helptopic act="addmod,editmod" opt="caneditevents" disp="40"></helptopic>
+	<helptopic act="addmod,editmod" opt="candeleteevents" disp="50"></helptopic>
+	<helptopic act="addmod,editmod" opt="canmoveevents" disp="55"></helptopic>
+	<helptopic act="addmod,editmod" opt="canmoderateevents" disp="60"></helptopic>
+	<helptopic act="addmod,editmod" opt="canviewips" disp="70"></helptopic>
+	<helptopic act="deletecustom" disp="1"></helptopic>
+	<helptopic act="edit" disp="1"></helptopic>
+	<helptopic act="editmod" disp="1"></helptopic>
+	<helptopic act="modify" disp="1"></helptopic>
+	<helptopic act="modifyholiday" disp="1"></helptopic>
+	<helptopic act="remove" disp="1"></helptopic>
+	<helptopic act="removeholiday" disp="1"></helptopic>
+	<helptopic act="removemod" disp="1"></helptopic>
+	<helptopic act="updateholiday" disp="1"></helptopic>
+	<helptopic act="updateholiday" opt="varname" disp="10"></helptopic>
+	<helptopic act="updateholiday" opt="title" disp="20"></helptopic>
+	<helptopic act="updateholiday" opt="event" disp="30"></helptopic>
+	<helptopic act="updateholiday" opt="recurring" disp="40"></helptopic>
+	<helptopic act="updateholiday" opt="allowsmilies" disp="50"></helptopic>
+</helpscript>
+<helpscript name="adminlog">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="choose" disp="1"></helptopic>
+	<helptopic act="choose" opt="perpage" disp="20"></helptopic>
+	<helptopic act="choose" opt="script" disp="30"></helptopic>
+	<helptopic act="choose" opt="userid" disp="40"></helptopic>
+	<helptopic act="choose" opt="orderby" disp="50"></helptopic>
+	<helptopic act="choose" opt="pscript" disp="60"></helptopic>
+	<helptopic act="choose" opt="puserid" disp="70"></helptopic>
+	<helptopic act="choose" opt="daysprune" disp="80"></helptopic>
+	<helptopic act="prunelog" disp="1"></helptopic>
+	<helptopic act="resolveip" disp="2"></helptopic>
+	<helptopic act="restrict" disp="1"></helptopic>
+	<helptopic act="view" disp="1"></helptopic>
+</helpscript>
+<helpscript name="adminpermissions">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="edit" disp="1"></helptopic>
+	<helptopic act="edit" opt="canadminsettings" disp="20"></helptopic>
+	<helptopic act="edit" opt="canadminstyles" disp="30"></helptopic>
+	<helptopic act="edit" opt="canadminlanguages" disp="40"></helptopic>
+	<helptopic act="edit" opt="canadminforums" disp="50"></helptopic>
+	<helptopic act="edit" opt="canadminthreads" disp="60"></helptopic>
+	<helptopic act="edit" opt="canadmincalendars" disp="70"></helptopic>
+	<helptopic act="edit" opt="canadminusers" disp="80"></helptopic>
+	<helptopic act="edit" opt="canadminpermissions" disp="90"></helptopic>
+	<helptopic act="edit" opt="canadminfaq" disp="90"></helptopic>
+	<helptopic act="edit" opt="canadminimages" disp="100"></helptopic>
+	<helptopic act="edit" opt="canadminbbcodes" disp="110"></helptopic>
+	<helptopic act="edit" opt="canadmincron" disp="120"></helptopic>
+	<helptopic act="edit" opt="canadminmaintain" disp="130"></helptopic>
+	<helptopic act="edit" opt="cssprefs" disp="140"></helptopic>
+	<helptopic act="modify" disp="1"></helptopic>
+</helpscript>
+<helpscript name="adminreputation">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="add" disp="1"></helptopic>
+	<helptopic act="add,edit" opt="level" disp="10"></helptopic>
+	<helptopic act="add,edit" opt="minimumreputation" disp="20"></helptopic>
+	<helptopic act="edit" disp="1"></helptopic>
+	<helptopic act="list,dolist" opt="leftfor" disp="10"></helptopic>
+	<helptopic act="list,dolist" opt="leftby" disp="20"></helptopic>
+	<helptopic act="list,dolist" opt="start" disp="30"></helptopic>
+	<helptopic act="list,dolist" opt="end" disp="40"></helptopic>
+	<helptopic act="modify" disp="1"></helptopic>
+	<helptopic act="remove" disp="1"></helptopic>
+</helpscript>
+<helpscript name="announcement">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="add" disp="1"></helptopic>
+	<helptopic act="add,edit" opt="forumid" disp="20"></helptopic>
+	<helptopic act="add,edit" opt="title" disp="30"></helptopic>
+	<helptopic act="add,edit" opt="start" disp="40"></helptopic>
+	<helptopic act="add,edit" opt="end" disp="50"></helptopic>
+	<helptopic act="add,edit" opt="pagetext" disp="60"></helptopic>
+	<helptopic act="add,edit" opt="allowbbcode" disp="70"></helptopic>
+	<helptopic act="add,edit" opt="allowsmilies" disp="80"></helptopic>
+	<helptopic act="add,edit" opt="allowhtml" disp="90"></helptopic>
+	<helptopic act="edit" disp="1"></helptopic>
+	<helptopic act="modify" disp="1"></helptopic>
+	<helptopic act="remove" disp="1"></helptopic>
+</helpscript>
+<helpscript name="attachment">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="delete" disp="1"></helptopic>
+	<helptopic act="edit" disp="1"></helptopic>
+	<helptopic act="edit" opt="a_filename" disp="20"></helptopic>
+	<helptopic act="edit" opt="a_counter" disp="30"></helptopic>
+	<helptopic act="edit" opt="a_visible" disp="40"></helptopic>
+	<helptopic act="edit" opt="modifyattachment" disp="50"></helptopic>
+	<helptopic act="intro" disp="1"></helptopic>
+	<helptopic act="intro" opt="prunedate" disp="10"></helptopic>
+	<helptopic act="intro" opt="filename" disp="15"></helptopic>
+	<helptopic act="intro" opt="attachedby" disp="20"></helptopic>
+	<helptopic act="intro" opt="datelinebefore" disp="30"></helptopic>
+	<helptopic act="intro" opt="datelineafter" disp="40"></helptopic>
+	<helptopic act="intro" opt="downloadsmore" disp="50"></helptopic>
+	<helptopic act="intro" opt="downloadsless" disp="60"></helptopic>
+	<helptopic act="intro" opt="sizemore" disp="70"></helptopic>
+	<helptopic act="intro" opt="sizeless" disp="80"></helptopic>
+	<helptopic act="intro" opt="visible" disp="90"></helptopic>
+	<helptopic act="intro" opt="orderby" disp="100"></helptopic>
+	<helptopic act="intro" opt="results" disp="110"></helptopic>
+	<helptopic act="massdelete" disp="1"></helptopic>
+	<helptopic act="removetype" disp="1"></helptopic>
+	<helptopic act="search" disp="1"></helptopic>
+	<helptopic act="stats" disp="1"></helptopic>
+	<helptopic act="storage,switchtype" disp="1"></helptopic>
+	<helptopic act="switchtype" opt="attachpath" disp="1"></helptopic>
+	<helptopic act="types" disp="1"></helptopic>
+	<helptopic act="updatetype" disp="1"></helptopic>
+	<helptopic act="updatetype" opt="extension" disp="10"></helptopic>
+	<helptopic act="updatetype" opt="size" disp="20"></helptopic>
+	<helptopic act="updatetype" opt="height" disp="30"></helptopic>
+	<helptopic act="updatetype" opt="width" disp="40"></helptopic>
+	<helptopic act="updatetype" opt="mimetype" disp="50"></helptopic>
+	<helptopic act="updatetype" opt="enabled" disp="60"></helptopic>
+	<helptopic act="updatetype" opt="newwindow" disp="70"></helptopic>
+</helpscript>
+<helpscript name="avatar">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="storage,switchtype" disp="1"></helptopic>
+	<helptopic act="switchtype" opt="avatarurl" disp="1"></helptopic>
+	<helptopic act="switchtype" opt="avatarpath" disp="1"></helptopic>
+</helpscript>
+<helpscript name="backup">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="choose" disp="1"></helptopic>
+	<helptopic act="choose" opt="filename" disp="10"></helptopic>
+	<helptopic act="choose" opt="table" disp="20"></helptopic>
+	<helptopic act="choose" opt="separator" disp="30"></helptopic>
+	<helptopic act="choose" opt="quotes" disp="40"></helptopic>
+	<helptopic act="choose" opt="showhead" disp="50"></helptopic>
+	<helptopic act="mysqldump" disp="1"></helptopic>
+</helpscript>
+<helpscript name="banning">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="banuser" disp="1"></helptopic>
+	<helptopic act="banuser" opt="username" disp="10"></helptopic>
+	<helptopic act="banuser" opt="usergroupid" disp="20"></helptopic>
+	<helptopic act="banuser" opt="period" disp="30"></helptopic>
+	<helptopic act="modify" disp="1"></helptopic>
+</helpscript>
+<helpscript name="bbcode">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="add" disp="1"></helptopic>
+	<helptopic act="add,edit" opt="title" disp="10"></helptopic>
+	<helptopic act="add,edit" opt="bbcodetag" disp="20"></helptopic>
+	<helptopic act="add,edit" opt="bbcodereplacement" disp="30"></helptopic>
+	<helptopic act="add,edit" opt="bbcodeexample" disp="50"></helptopic>
+	<helptopic act="add,edit" opt="bbcodeexplanation" disp="60"></helptopic>
+	<helptopic act="add,edit" opt="twoparams" disp="70"></helptopic>
+	<helptopic act="add,edit" opt="buttonimage" disp="80"></helptopic>
+	<helptopic act="edit" disp="1"></helptopic>
+	<helptopic act="modify" disp="1"></helptopic>
+	<helptopic act="modify" opt="text" disp="20"></helptopic>
+	<helptopic act="remove" disp="1"></helptopic>
+</helpscript>
+<helpscript name="calendarpermission">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="edit" disp="1"></helptopic>
+	<helptopic act="edit" opt="mode" disp="20"></helptopic>
+	<helptopic act="edit" opt="canviewcalendar" disp="30"></helptopic>
+	<helptopic act="edit" opt="canpostevent" disp="40"></helptopic>
+	<helptopic act="edit" opt="caneditevent" disp="50"></helptopic>
+	<helptopic act="edit" opt="candeleteevent" disp="60"></helptopic>
+	<helptopic act="edit" opt="canviewothersevent" disp="70"></helptopic>
+	<helptopic act="modify" disp="1"></helptopic>
+</helpscript>
+<helpscript name="cronadmin">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="add" disp="1"></helptopic>
+	<helptopic act="add,edit" opt="title" disp="10"></helptopic>
+	<helptopic act="add,edit" opt="weekday" disp="20"></helptopic>
+	<helptopic act="add,edit" opt="day" disp="30"></helptopic>
+	<helptopic act="add,edit" opt="hour" disp="40"></helptopic>
+	<helptopic act="add,edit" opt="minute" disp="50"></helptopic>
+	<helptopic act="add,edit" opt="loglevel" disp="60"></helptopic>
+	<helptopic act="add,edit" opt="filename" disp="70"></helptopic>
+	<helptopic act="edit" disp="1"></helptopic>
+	<helptopic act="modify" disp="1"></helptopic>
+	<helptopic act="remove" disp="1"></helptopic>
+</helpscript>
+<helpscript name="cronlog">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="choose" disp="1"></helptopic>
+	<helptopic act="choose" opt="perpage" disp="20"></helptopic>
+	<helptopic act="choose" opt="cronid" disp="30"></helptopic>
+	<helptopic act="choose" opt="orderby" disp="40"></helptopic>
+	<helptopic act="choose" opt="daysprune" disp="60"></helptopic>
+	<helptopic act="prunelog" disp="1"></helptopic>
+	<helptopic act="view" disp="1"></helptopic>
+</helpscript>
+<helpscript name="css">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="doedit" disp="1"></helptopic>
+	<helptopic act="doedit" opt="header" disp="10"></helptopic>
+	<helptopic act="doedit" opt="headinclude" disp="20"></helptopic>
+	<helptopic act="doedit" opt="footer" disp="30"></helptopic>
+	<helptopic act="doedit" opt="phpinclude_start" disp="40"></helptopic>
+	<helptopic act="doedit" opt="phpinclude_end" disp="50"></helptopic>
+	<helptopic act="doedit" opt="outertablewidth" disp="60"></helptopic>
+	<helptopic act="doedit" opt="spacersize" disp="70"></helptopic>
+	<helptopic act="doedit" opt="outerborderwidth" disp="80"></helptopic>
+	<helptopic act="doedit" opt="cellspacing" disp="90"></helptopic>
+	<helptopic act="doedit" opt="cellpadding" disp="100"></helptopic>
+	<helptopic act="doedit" opt="formspacer" disp="110"></helptopic>
+	<helptopic act="doedit" opt="formwidth" disp="120"></helptopic>
+	<helptopic act="doedit" opt="formwidth_usercp" disp="130"></helptopic>
+	<helptopic act="doedit" opt="messagewidth" disp="140"></helptopic>
+	<helptopic act="doedit" opt="messagewidth_usercp" disp="150"></helptopic>
+	<helptopic act="doedit" opt="codeblockwidth" disp="160"></helptopic>
+	<helptopic act="doedit" opt="titleimage" disp="170"></helptopic>
+	<helptopic act="doedit" opt="imgdir_button" disp="180"></helptopic>
+	<helptopic act="doedit" opt="imgdir_statusicon" disp="190"></helptopic>
+	<helptopic act="doedit" opt="imgdir_attach" disp="200"></helptopic>
+	<helptopic act="doedit" opt="imgdir_misc" disp="210"></helptopic>
+	<helptopic act="doedit" opt="imgdir_editor" disp="220"></helptopic>
+	<helptopic act="doedit" opt="imgdir_poll" disp="230"></helptopic>
+	<helptopic act="doedit" opt="imgdir_rating" disp="240"></helptopic>
+	<helptopic act="doedit" opt="htmldoctype" disp="250"></helptopic>
+	<helptopic act="doedit" opt="imgdir_reputation" disp="250"></helptopic>
+</helpscript>
+<helpscript name="diagnostic">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="domail" disp="1"></helptopic>
+	<helptopic act="dosysinfo" disp="1"></helptopic>
+	<helptopic act="doupload" disp="1"></helptopic>
+	<helptopic act="doversion" disp="1"></helptopic>
+	<helptopic act="list" disp="1"></helptopic>
+	<helptopic act="list" opt="attachfile" disp="20"></helptopic>
+	<helptopic act="list" opt="emailaddress" disp="20"></helptopic>
+	<helptopic act="list" opt="type" disp="20"></helptopic>
+</helpscript>
+<helpscript name="email">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="genlist" disp="1"></helptopic>
+	<helptopic act="genlist" opt="septext" disp="20"></helptopic>
+	<helptopic act="genlist,start" opt="username" disp="70"></helptopic>
+	<helptopic act="genlist,start" opt="usergroupid" disp="90"></helptopic>
+	<helptopic act="genlist,start" opt="membergroup" disp="100"></helptopic>
+	<helptopic act="genlist,start" opt="adminemail" disp="105"></helptopic>
+	<helptopic act="genlist,start" opt="email" disp="110"></helptopic>
+	<helptopic act="genlist,start" opt="parentemail" disp="120"></helptopic>
+	<helptopic act="genlist,start" opt="coppauser" disp="130"></helptopic>
+	<helptopic act="genlist,start" opt="homepage" disp="140"></helptopic>
+	<helptopic act="genlist,start" opt="icq" disp="150"></helptopic>
+	<helptopic act="genlist,start" opt="aim" disp="160"></helptopic>
+	<helptopic act="genlist,start" opt="yahoo" disp="170"></helptopic>
+	<helptopic act="genlist,start" opt="msn" disp="175"></helptopic>
+	<helptopic act="genlist,start" opt="signature" disp="180"></helptopic>
+	<helptopic act="genlist,start" opt="usertitle" disp="190"></helptopic>
+	<helptopic act="genlist,start" opt="joindateafter" disp="200"></helptopic>
+	<helptopic act="genlist,start" opt="joindatebefore" disp="210"></helptopic>
+	<helptopic act="genlist,start" opt="lastvisitafter" disp="220"></helptopic>
+	<helptopic act="genlist,start" opt="lastvisitbefore" disp="230"></helptopic>
+	<helptopic act="genlist,start" opt="lastpostafter" disp="240"></helptopic>
+	<helptopic act="genlist,start" opt="lastpostbefore" disp="250"></helptopic>
+	<helptopic act="genlist,start" opt="birthdayafter" disp="260"></helptopic>
+	<helptopic act="genlist,start" opt="birthdaybefore" disp="270"></helptopic>
+	<helptopic act="genlist,start" opt="postslower" disp="280"></helptopic>
+	<helptopic act="genlist,start" opt="postsupper" disp="290"></helptopic>
+	<helptopic act="genlist,start" opt="reputationlower" disp="300"></helptopic>
+	<helptopic act="genlist,start" opt="reputationupper" disp="310"></helptopic>
+	<helptopic act="genlist,start" opt="ipaddress" disp="320"></helptopic>
+	<helptopic act="start" disp="1"></helptopic>
+	<helptopic act="start" opt="test" disp="20"></helptopic>
+	<helptopic act="start" opt="perpage" disp="30"></helptopic>
+	<helptopic act="start" opt="from" disp="40"></helptopic>
+	<helptopic act="start" opt="subject" disp="50"></helptopic>
+	<helptopic act="start" opt="message" disp="60"></helptopic>
+</helpscript>
+<helpscript name="faq">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="add" disp="1"></helptopic>
+	<helptopic act="add" opt="faq" disp="5"></helptopic>
+	<helptopic act="add,edit" opt="faqparent" disp="10"></helptopic>
+	<helptopic act="add,edit" opt="deftitle" disp="20"></helptopic>
+	<helptopic act="add,edit" opt="deftext" disp="30"></helptopic>
+	<helptopic act="add,edit" opt="displayorder" disp="40"></helptopic>
+	<helptopic act="add,edit" opt="1" disp="60"></helptopic>
+	<helptopic act="delete" disp="1"></helptopic>
+	<helptopic act="edit" disp="1"></helptopic>
+	<helptopic act="modify" disp="1"></helptopic>
+</helpscript>
+<helpscript name="forum">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="add" disp="1"></helptopic>
+	<helptopic act="add,edit" opt="title" disp="20"></helptopic>
+	<helptopic act="add,edit" opt="description" disp="30"></helptopic>
+	<helptopic act="add,edit" opt="link" disp="40"></helptopic>
+	<helptopic act="add,edit" opt="displayorder" disp="50"></helptopic>
+	<helptopic act="add,edit" opt="daysprune" disp="60"></helptopic>
+	<helptopic act="add,edit" opt="parentid" disp="70"></helptopic>
+	<helptopic act="add,edit" opt="newpostemail" disp="80"></helptopic>
+	<helptopic act="add,edit" opt="newthreademail" disp="90"></helptopic>
+	<helptopic act="add,edit" opt="moderatenewpost" disp="100"></helptopic>
+	<helptopic act="add,edit" opt="moderatenewthread" disp="105"></helptopic>
+	<helptopic act="add,edit" opt="moderateattach" disp="110"></helptopic>
+	<helptopic act="add,edit" opt="warnall" disp="115"></helptopic>
+	<helptopic act="add,edit" opt="styleid" disp="120"></helptopic>
+	<helptopic act="add,edit" opt="styleoverride" disp="130"></helptopic>
+	<helptopic act="add,edit" opt="password" disp="150"></helptopic>
+	<helptopic act="add,edit" opt="canhavepassword" disp="170"></helptopic>
+	<helptopic act="add,edit" opt="cancontainthreads" disp="180"></helptopic>
+	<helptopic act="add,edit" opt="active" disp="190"></helptopic>
+	<helptopic act="add,edit" opt="allowposting" disp="200"></helptopic>
+	<helptopic act="add,edit" opt="indexposts" disp="210"></helptopic>
+	<helptopic act="add,edit" opt="allowhtml" disp="220"></helptopic>
+	<helptopic act="add,edit" opt="allowbbcode" disp="230"></helptopic>
+	<helptopic act="add,edit" opt="allowimages" disp="240"></helptopic>
+	<helptopic act="add,edit" opt="allowsmilies" disp="250"></helptopic>
+	<helptopic act="add,edit" opt="allowicons" disp="260"></helptopic>
+	<helptopic act="add,edit" opt="allowratings" disp="270"></helptopic>
+	<helptopic act="add,edit" opt="countposts" disp="280"></helptopic>
+	<helptopic act="add,edit" opt="showonforumjump" disp="290"></helptopic>
+	<helptopic act="edit" disp="1"></helptopic>
+	<helptopic act="edit" opt="applypwdtochild" disp="160"></helptopic>
+	<helptopic act="modify" disp="1"></helptopic>
+	<helptopic act="remove" disp="1"></helptopic>
+</helpscript>
+<helpscript name="forumpermission">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="duplicate" disp="1"></helptopic>
+	<helptopic act="duplicate" opt="ugid_from" disp="10"></helptopic>
+	<helptopic act="duplicate" opt="usergrouplist" disp="20"></helptopic>
+	<helptopic act="duplicate" opt="limitforumid" disp="30"></helptopic>
+	<helptopic act="duplicate" opt="overwritedupes_group" disp="40"></helptopic>
+	<helptopic act="duplicate" opt="overwriteinherited_group" disp="50"></helptopic>
+	<helptopic act="duplicate" opt="forumid_from" disp="60"></helptopic>
+	<helptopic act="duplicate" opt="forumlist" disp="70"></helptopic>
+	<helptopic act="duplicate" opt="overwritedupes_forum" disp="80"></helptopic>
+	<helptopic act="duplicate" opt="overwriteinherited_forum" disp="90"></helptopic>
+	<helptopic act="edit" disp="1"></helptopic>
+	<helptopic act="edit" opt="mode" disp="20"></helptopic>
+	<helptopic act="edit,quickforum" opt="canview" disp="30"></helptopic>
+	<helptopic act="edit,quickforum" opt="canviewothers" disp="40"></helptopic>
+	<helptopic act="edit,quickforum" opt="canseedelnotice" disp="45"></helptopic>
+	<helptopic act="edit,quickforum" opt="cansearch" disp="50"></helptopic>
+	<helptopic act="edit,quickforum" opt="canemail" disp="60"></helptopic>
+	<helptopic act="edit,quickforum" opt="cangetattachment" disp="70"></helptopic>
+	<helptopic act="edit,quickforum" opt="canpostnew" disp="80"></helptopic>
+	<helptopic act="edit,quickforum" opt="canreplyown" disp="90"></helptopic>
+	<helptopic act="edit,quickforum" opt="canreplyothers" disp="100"></helptopic>
+	<helptopic act="edit,quickforum" opt="isalwaysmoderated" disp="110"></helptopic>
+	<helptopic act="edit,quickforum" opt="canpostattachment" disp="120"></helptopic>
+	<helptopic act="edit,quickforum" opt="canthreadrate" disp="140"></helptopic>
+	<helptopic act="edit,quickforum" opt="caneditpost" disp="150"></helptopic>
+	<helptopic act="edit,quickforum" opt="candeletepost" disp="160"></helptopic>
+	<helptopic act="edit,quickforum" opt="canmove" disp="170"></helptopic>
+	<helptopic act="edit,quickforum" opt="canopenclose" disp="180"></helptopic>
+	<helptopic act="edit,quickforum" opt="candeletethread" disp="190"></helptopic>
+	<helptopic act="edit,quickforum" opt="canpostpoll" disp="200"></helptopic>
+	<helptopic act="edit,quickforum" opt="canvote" disp="220"></helptopic>
+	<helptopic act="modify" disp="1"></helptopic>
+	<helptopic act="quickedit" disp="1"></helptopic>
+	<helptopic act="quickeditor" disp="1"></helptopic>
+	<helptopic act="quickforum" disp="1"></helptopic>
+	<helptopic act="quickforum" opt="forumid" disp="10"></helptopic>
+	<helptopic act="quickforum" opt="usergrouplist" disp="20"></helptopic>
+</helpscript>
+<helpscript name="help">
+	<helptopic act="add" opt="displayorder" disp="1"></helptopic>
+	<helptopic act="edit" opt="optionname" disp="1"></helptopic>
+	<helptopic act="edit" opt="action" disp="1"></helptopic>
+	<helptopic act="edit" opt="text" disp="1"></helptopic>
+	<helptopic act="edit" opt="script" disp="1"></helptopic>
+</helpscript>
+<helpscript name="image">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="add" disp="1"></helptopic>
+	<helptopic act="add" opt="perpage" disp="80"></helptopic>
+	<helptopic act="add,edit" opt="path" disp="40"></helptopic>
+	<helptopic act="add,edit,upload" opt="title" disp="20"></helptopic>
+	<helptopic act="add,edit,upload" opt="smilietext" disp="30"></helptopic>
+	<helptopic act="add,edit,upload" opt="minimumposts" disp="30"></helptopic>
+	<helptopic act="add,edit,upload" opt="imagecategoryid" disp="50"></helptopic>
+	<helptopic act="add,edit,upload" opt="displayorder" disp="60"></helptopic>
+	<helptopic act="add,upload" opt="imagespath" disp="70"></helptopic>
+	<helptopic act="addcategory" disp="1"></helptopic>
+	<helptopic act="addcategory,editcategory" opt="title" disp="20"></helptopic>
+	<helptopic act="addcategory,editcategory" opt="displayorder" disp="30"></helptopic>
+	<helptopic act="edit" disp="1"></helptopic>
+	<helptopic act="editcategory" disp="1"></helptopic>
+	<helptopic act="editpermissions" disp="1"></helptopic>
+	<helptopic act="modify" disp="1"></helptopic>
+	<helptopic act="remove" disp="1"></helptopic>
+	<helptopic act="removecategory" disp="1"></helptopic>
+	<helptopic act="upload" disp="1"></helptopic>
+	<helptopic act="upload" opt="imagefile" disp="20"></helptopic>
+	<helptopic act="viewimages" disp="1"></helptopic>
+</helpscript>
+<helpscript name="importexport">
+	<helptopic act="select" opt="export" disp="1"></helptopic>
+</helpscript>
+<helpscript name="index">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="home" disp="1"></helptopic>
+</helpscript>
+<helpscript name="language">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="add" disp="1"></helptopic>
+	<helptopic act="add,edit_settings" opt="title" disp="20"></helptopic>
+	<helptopic act="add,edit_settings" opt="userselect" disp="30"></helptopic>
+	<helptopic act="add,edit_settings" opt="direction" disp="50"></helptopic>
+	<helptopic act="add,edit_settings" opt="languagecode" disp="60"></helptopic>
+	<helptopic act="add,edit_settings" opt="charset" disp="70"></helptopic>
+	<helptopic act="add,edit_settings" opt="imagesoverride" disp="80"></helptopic>
+	<helptopic act="add,edit_settings" opt="locale" disp="90"></helptopic>
+	<helptopic act="add,edit_settings" opt="dateoverride" disp="100"></helptopic>
+	<helptopic act="add,edit_settings" opt="timeoverride" disp="110"></helptopic>
+	<helptopic act="add,edit_settings" opt="registereddateoverride" disp="120"></helptopic>
+	<helptopic act="add,edit_settings" opt="calformat1override" disp="130"></helptopic>
+	<helptopic act="add,edit_settings" opt="calformat2override" disp="140"></helptopic>
+	<helptopic act="add,edit_settings" opt="logdateoverride" disp="150"></helptopic>
+	<helptopic act="add,edit_settings" opt="decimalsep" disp="160"></helptopic>
+	<helptopic act="add,edit_settings" opt="thousandsep" disp="170"></helptopic>
+	<helptopic act="delete" disp="1"></helptopic>
+	<helptopic act="edit" disp="1"></helptopic>
+	<helptopic act="edit_settings" disp="1"></helptopic>
+	<helptopic act="edit_settings" opt="isdefault" disp="40"></helptopic>
+	<helptopic act="files" disp="1"></helptopic>
+	<helptopic act="files" opt="languageid" disp="10"></helptopic>
+	<helptopic act="files" opt="filename" disp="20"></helptopic>
+	<helptopic act="files" opt="just_phrases" disp="30"></helptopic>
+	<helptopic act="files" opt="languagefile" disp="40"></helptopic>
+	<helptopic act="files" opt="serverfile" disp="50"></helptopic>
+	<helptopic act="files" opt="olanguageid" disp="60"></helptopic>
+	<helptopic act="files" opt="title" disp="70"></helptopic>
+	<helptopic act="files" opt="anyversion" disp="80"></helptopic>
+	<helptopic act="modify" disp="1"></helptopic>
+	<helptopic act="rebuild" disp="1"></helptopic>
+</helpscript>
+<helpscript name="misc">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="chooser" disp="1"></helptopic>
+	<helptopic act="chooser" opt="perpage" disp="10"></helptopic>
+	<helptopic act="chooser" opt="startat" disp="20"></helptopic>
+	<helptopic act="chooser" opt="doprocess" disp="30"></helptopic>
+	<helptopic act="chooser" opt="autoredirect" disp="40"></helptopic>
+	<helptopic act="chooser" opt="install" disp="50"></helptopic>
+	<helptopic act="chooser" opt="renumber" disp="60"></helptopic>
+	<helptopic act="chooser" opt="reputation_base" disp="70"></helptopic>
+</helpscript>
+<helpscript name="moderate">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="attachments" disp="1"></helptopic>
+	<helptopic act="attachments" opt="attachaction" disp="10"></helptopic>
+	<helptopic act="events" disp="1"></helptopic>
+	<helptopic act="events" opt="eventsubject" disp="10"></helptopic>
+	<helptopic act="events" opt="eventtext" disp="20"></helptopic>
+	<helptopic act="events" opt="eventaction" disp="30"></helptopic>
+	<helptopic act="posts" disp="1"></helptopic>
+	<helptopic act="posts" opt="threadtitle" disp="10"></helptopic>
+	<helptopic act="posts" opt="threadpagetext" disp="20"></helptopic>
+	<helptopic act="posts" opt="threadnotes" disp="30"></helptopic>
+	<helptopic act="posts" opt="threadaction" disp="40"></helptopic>
+	<helptopic act="posts" opt="posttitle" disp="50"></helptopic>
+	<helptopic act="posts" opt="postpagetext" disp="60"></helptopic>
+	<helptopic act="posts" opt="postaction" disp="70"></helptopic>
+</helpscript>
+<helpscript name="moderator">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="add" disp="1"></helptopic>
+	<helptopic act="add" opt="usergroupid" disp="30"></helptopic>
+	<helptopic act="add" opt="membergroupids" disp="40"></helptopic>
+	<helptopic act="add,edit" opt="forumid" disp="10"></helptopic>
+	<helptopic act="add,edit" opt="modusername" disp="20"></helptopic>
+	<helptopic act="add,edit" opt="caneditposts" disp="50"></helptopic>
+	<helptopic act="add,edit" opt="candeleteposts" disp="60"></helptopic>
+	<helptopic act="add,edit" opt="canremoveposts" disp="70"></helptopic>
+	<helptopic act="add,edit" opt="canopenclose" disp="80"></helptopic>
+	<helptopic act="add,edit" opt="caneditthreads" disp="90"></helptopic>
+	<helptopic act="add,edit" opt="canmanagethreads" disp="100"></helptopic>
+	<helptopic act="add,edit" opt="caneditpoll" disp="110"></helptopic>
+	<helptopic act="add,edit" opt="canannounce" disp="120"></helptopic>
+	<helptopic act="add,edit" opt="canmoderateposts" disp="130"></helptopic>
+	<helptopic act="add,edit" opt="canmoderateattachments" disp="140"></helptopic>
+	<helptopic act="add,edit" opt="canmassmove" disp="150"></helptopic>
+	<helptopic act="add,edit" opt="canmassprune" disp="160"></helptopic>
+	<helptopic act="add,edit" opt="cansetpassword" disp="170"></helptopic>
+	<helptopic act="add,edit" opt="canviewips" disp="180"></helptopic>
+	<helptopic act="add,edit" opt="canviewprofile" disp="190"></helptopic>
+	<helptopic act="add,edit" opt="canbanusers" disp="200"></helptopic>
+	<helptopic act="add,edit" opt="canunbanusers" disp="210"></helptopic>
+	<helptopic act="add,edit" opt="caneditsigs" disp="220"></helptopic>
+	<helptopic act="add,edit" opt="caneditavatar" disp="230"></helptopic>
+	<helptopic act="add,edit" opt="caneditprofilepic" disp="240"></helptopic>
+	<helptopic act="add,edit" opt="caneditreputation" disp="250"></helptopic>
+	<helptopic act="add,edit" opt="newthreademail" disp="260"></helptopic>
+	<helptopic act="add,edit" opt="newpostemail" disp="270"></helptopic>
+	<helptopic act="edit" disp="1"></helptopic>
+	<helptopic act="remove" disp="1"></helptopic>
+	<helptopic act="removeall" disp="1"></helptopic>
+	<helptopic act="showlist" disp="1"></helptopic>
+</helpscript>
+<helpscript name="modlog">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="choose" disp="1"></helptopic>
+	<helptopic act="choose" opt="perpage" disp="10"></helptopic>
+	<helptopic act="choose" opt="userid" disp="20"></helptopic>
+	<helptopic act="choose" opt="orderby" disp="30"></helptopic>
+	<helptopic act="choose" opt="daysprune" disp="40"></helptopic>
+	<helptopic act="prunelog" disp="1"></helptopic>
+	<helptopic act="view" disp="1"></helptopic>
+</helpscript>
+<helpscript name="options">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="options" disp="1"></helptopic>
+	<helptopic act="options" opt="bbactive" disp="20"></helptopic>
+	<helptopic act="options" opt="bbclosedreason" disp="30"></helptopic>
+	<helptopic act="options" opt="bbtitle" disp="40"></helptopic>
+	<helptopic act="options" opt="bburl" disp="50"></helptopic>
+	<helptopic act="options" opt="hometitle" disp="60"></helptopic>
+	<helptopic act="options" opt="homeurl" disp="70"></helptopic>
+	<helptopic act="options" opt="contactuslink" disp="80"></helptopic>
+	<helptopic act="options" opt="contactusoptions" disp="90"></helptopic>
+	<helptopic act="options" opt="webmasteremail" disp="100"></helptopic>
+	<helptopic act="options" opt="privacyurl" disp="110"></helptopic>
+	<helptopic act="options" opt="copyrighttext" disp="120"></helptopic>
+	<helptopic act="options" opt="companyname" disp="130"></helptopic>
+	<helptopic act="options" opt="faxnumber" disp="140"></helptopic>
+	<helptopic act="options" opt="address" disp="160"></helptopic>
+	<helptopic act="options" opt="keywords" disp="170"></helptopic>
+	<helptopic act="options" opt="description" disp="180"></helptopic>
+	<helptopic act="options" opt="useforumjump" disp="190"></helptopic>
+	<helptopic act="options" opt="pagenavpages" disp="200"></helptopic>
+	<helptopic act="options" opt="enableaccess" disp="210"></helptopic>
+	<helptopic act="options" opt="showimicons" disp="220"></helptopic>
+	<helptopic act="options" opt="addtemplatename" disp="230"></helptopic>
+	<helptopic act="options" opt="usestrikesystem" disp="235"></helptopic>
+	<helptopic act="options" opt="yestoday" disp="240"></helptopic>
+	<helptopic act="options" opt="timeoffset" disp="250"></helptopic>
+	<helptopic act="options" opt="dstonoff" disp="260"></helptopic>
+	<helptopic act="options" opt="dateformat" disp="270"></helptopic>
+	<helptopic act="options" opt="timeformat" disp="280"></helptopic>
+	<helptopic act="options" opt="registereddateformat" disp="290"></helptopic>
+	<helptopic act="options" opt="calformat1" disp="300"></helptopic>
+	<helptopic act="options" opt="calformat2" disp="310"></helptopic>
+	<helptopic act="options" opt="logdateformat" disp="315"></helptopic>
+	<helptopic act="options" opt="cookietimeout" disp="320"></helptopic>
+	<helptopic act="options" opt="cookiepath" disp="330"></helptopic>
+	<helptopic act="options" opt="cookiedomain" disp="340"></helptopic>
+	<helptopic act="options" opt="gzipoutput" disp="350"></helptopic>
+	<helptopic act="options" opt="gziplevel" disp="360"></helptopic>
+	<helptopic act="options" opt="addheaders" disp="370"></helptopic>
+	<helptopic act="options" opt="nocacheheaders" disp="375"></helptopic>
+	<helptopic act="options" opt="useheaderredirect" disp="380"></helptopic>
+	<helptopic act="options" opt="allowphpinfo" disp="390"></helptopic>
+	<helptopic act="options" opt="cachemaxage" disp="400"></helptopic>
+	<helptopic act="options" opt="threadviewslive" disp="410"></helptopic>
+	<helptopic act="options" opt="attachmentviewslive" disp="420"></helptopic>
+	<helptopic act="options" opt="emailsendnum" disp="430"></helptopic>
+	<helptopic act="options" opt="sessionlimit" disp="440"></helptopic>
+	<helptopic act="options" opt="loadlimit" disp="450"></helptopic>
+	<helptopic act="options" opt="gdversion" disp="470"></helptopic>
+	<helptopic act="options" opt="safeupload" disp="480"></helptopic>
+	<helptopic act="options" opt="tmppath" disp="490"></helptopic>
+	<helptopic act="options" opt="usemailqueue" disp="500"></helptopic>
+	<helptopic act="options" opt="needfromemail" disp="510"></helptopic>
+	<helptopic act="options" opt="languageid" disp="520"></helptopic>
+	<helptopic act="options" opt="styleid" disp="530"></helptopic>
+	<helptopic act="options" opt="allowchangestyles" disp="540"></helptopic>
+	<helptopic act="options" opt="cleargifurl" disp="550"></helptopic>
+	<helptopic act="options" opt="storecssasfile" disp="560"></helptopic>
+	<helptopic act="options" opt="usepopups" disp="570"></helptopic>
+	<helptopic act="options" opt="legacypostbit" disp="575"></helptopic>
+	<helptopic act="options" opt="enableemail" disp="580"></helptopic>
+	<helptopic act="options" opt="displayemails" disp="590"></helptopic>
+	<helptopic act="options" opt="secureemail" disp="600"></helptopic>
+	<helptopic act="options" opt="emailfloodtime" disp="610"></helptopic>
+	<helptopic act="options" opt="enablecensor" disp="620"></helptopic>
+	<helptopic act="options" opt="censorchar" disp="630"></helptopic>
+	<helptopic act="options" opt="censorwords" disp="640"></helptopic>
+	<helptopic act="options" opt="blankasciistrip" disp="650"></helptopic>
+	<helptopic act="options" opt="allowregistration" disp="660"></helptopic>
+	<helptopic act="options" opt="usecoppa" disp="670"></helptopic>
+	<helptopic act="options" opt="moderatenewmembers" disp="680"></helptopic>
+	<helptopic act="options" opt="regimagecheck" disp="690"></helptopic>
+	<helptopic act="options" opt="welcomemail" disp="700"></helptopic>
+	<helptopic act="options" opt="newuseremail" disp="710"></helptopic>
+	<helptopic act="options" opt="allowmultiregs" disp="720"></helptopic>
+	<helptopic act="options" opt="verifyemail" disp="730"></helptopic>
+	<helptopic act="options" opt="requireuniqueemail" disp="740"></helptopic>
+	<helptopic act="options" opt="minuserlength" disp="750"></helptopic>
+	<helptopic act="options" opt="maxuserlength" disp="760"></helptopic>
+	<helptopic act="options" opt="illegalusernames" disp="770"></helptopic>
+	<helptopic act="options" opt="usereferrer" disp="775"></helptopic>
+	<helptopic act="options" opt="defaultregoptions" disp="780"></helptopic>
+	<helptopic act="options" opt="ctMaxChars" disp="790"></helptopic>
+	<helptopic act="options" opt="ctCensorWords" disp="800"></helptopic>
+	<helptopic act="options" opt="ctCensorMod" disp="810"></helptopic>
+	<helptopic act="options" opt="allowsignatures" disp="820"></helptopic>
+	<helptopic act="options" opt="sigmax" disp="830"></helptopic>
+	<helptopic act="options" opt="allowbbcode" disp="840"></helptopic>
+	<helptopic act="options" opt="allowsmilies" disp="850"></helptopic>
+	<helptopic act="options" opt="allowbbimagecode" disp="860"></helptopic>
+	<helptopic act="options" opt="allowhtml" disp="870"></helptopic>
+	<helptopic act="options" opt="ignoremods" disp="880"></helptopic>
+	<helptopic act="options" opt="avatarenabled" disp="890"></helptopic>
+	<helptopic act="options" opt="numavatarswide" disp="900"></helptopic>
+	<helptopic act="options" opt="numavatarsperpage" disp="910"></helptopic>
+	<helptopic act="options" opt="profilepicenabled" disp="920"></helptopic>
+	<helptopic act="options" opt="reputationenable" disp="930"></helptopic>
+	<helptopic act="options" opt="reputationhide" disp="940"></helptopic>
+	<helptopic act="options" opt="reputationundefined" disp="945"></helptopic>
+	<helptopic act="options" opt="reputationdefault" disp="950"></helptopic>
+	<helptopic act="options" opt="showuserrates" disp="960"></helptopic>
+	<helptopic act="options" opt="adminpower" disp="970"></helptopic>
+	<helptopic act="options" opt="rdpower" disp="980"></helptopic>
+	<helptopic act="options" opt="pcpower" disp="990"></helptopic>
+	<helptopic act="options" opt="kppower" disp="1000"></helptopic>
+	<helptopic act="options" opt="minreputationpost" disp="1010"></helptopic>
+	<helptopic act="options" opt="minreputationcount" disp="1020"></helptopic>
+	<helptopic act="options" opt="maxreputationperday" disp="1030"></helptopic>
+	<helptopic act="options" opt="reputationrepeat" disp="1040"></helptopic>
+	<helptopic act="options" opt="unallowvbcode" disp="1050"></helptopic>
+	<helptopic act="options" opt="unallowsmilies" disp="1060"></helptopic>
+	<helptopic act="options" opt="unallowimg" disp="1070"></helptopic>
+	<helptopic act="options" opt="unallowhtml" disp="1080"></helptopic>
+	<helptopic act="options" opt="enablememberlist" disp="1090"></helptopic>
+	<helptopic act="options" opt="memberlistfields" disp="1095"></helptopic>
+	<helptopic act="options" opt="memberlistperpage" disp="1100"></helptopic>
+	<helptopic act="options" opt="usememberlistadvsearch" disp="1110"></helptopic>
+	<helptopic act="options" opt="profilelastpost" disp="1120"></helptopic>
+	<helptopic act="options" opt="enablebanning" disp="1130"></helptopic>
+	<helptopic act="options" opt="banip" disp="1140"></helptopic>
+	<helptopic act="options" opt="banemail" disp="1150"></helptopic>
+	<helptopic act="options" opt="allowkeepbannedemail" disp="1160"></helptopic>
+	<helptopic act="options" opt="globalignore" disp="1170"></helptopic>
+	<helptopic act="options" opt="allowedbbcodes" disp="1173"></helptopic>
+	<helptopic act="options" opt="codemaxlines" disp="1178"></helptopic>
+	<helptopic act="options" opt="quickreply" disp="1180"></helptopic>
+	<helptopic act="options" opt="quickreplyclick" disp="1190"></helptopic>
+	<helptopic act="options" opt="postminchars" disp="1200"></helptopic>
+	<helptopic act="options" opt="ignorequotechars" disp="1210"></helptopic>
+	<helptopic act="options" opt="quotetitle" disp="1220"></helptopic>
+	<helptopic act="options" opt="postmaxchars" disp="1230"></helptopic>
+	<helptopic act="options" opt="maximages" disp="1240"></helptopic>
+	<helptopic act="options" opt="stopshouting" disp="1250"></helptopic>
+	<helptopic act="options" opt="allowdynimg" disp="1260"></helptopic>
+	<helptopic act="options" opt="floodchecktime" disp="1270"></helptopic>
+	<helptopic act="options" opt="editthreadtitlelimit" disp="1280"></helptopic>
+	<helptopic act="options" opt="addpolltimeout" disp="1290"></helptopic>
+	<helptopic act="options" opt="edittimelimit" disp="1295"></helptopic>
+	<helptopic act="options" opt="noeditedbytime" disp="1300"></helptopic>
+	<helptopic act="options" opt="logip" disp="1310"></helptopic>
+	<helptopic act="options" opt="allowvbcodebuttons" disp="1320"></helptopic>
+	<helptopic act="options" opt="wysiwyg_show_smiliebox" disp="1330"></helptopic>
+	<helptopic act="options" opt="smtotal" disp="1340"></helptopic>
+	<helptopic act="options" opt="smcolumns" disp="1350"></helptopic>
+	<helptopic act="options" opt="wysiwyg_smtotal" disp="1360"></helptopic>
+	<helptopic act="options" opt="attachtotalspace" disp="1370"></helptopic>
+	<helptopic act="options" opt="attachlimit" disp="1380"></helptopic>
+	<helptopic act="options" opt="attachboxcount" disp="1390"></helptopic>
+	<helptopic act="options" opt="allowattachdel" disp="1400"></helptopic>
+	<helptopic act="options" opt="allowclosedattachdel" disp="1401"></helptopic>
+	<helptopic act="options" opt="allowduplicates" disp="1410"></helptopic>
+	<helptopic act="options" opt="viewattachedimages" disp="1420"></helptopic>
+	<helptopic act="options" opt="attachthumbs" disp="1430"></helptopic>
+	<helptopic act="options" opt="attachthumbssize" disp="1440"></helptopic>
+	<helptopic act="options" opt="attachrow" disp="1450"></helptopic>
+	<helptopic act="options" opt="thumbpng" disp="1451"></helptopic>
+	<helptopic act="options" opt="maxpolloptions" disp="1460"></helptopic>
+	<helptopic act="options" opt="updatelastpost" disp="1470"></helptopic>
+	<helptopic act="options" opt="showvotes" disp="1480"></helptopic>
+	<helptopic act="options" opt="votechange" disp="1490"></helptopic>
+	<helptopic act="options" opt="enablesearches" disp="1500"></helptopic>
+	<helptopic act="options" opt="searchfloodtime" disp="1510"></helptopic>
+	<helptopic act="options" opt="minsearchlength" disp="1520"></helptopic>
+	<helptopic act="options" opt="maxsearchlength" disp="1530"></helptopic>
+	<helptopic act="options" opt="goodwords" disp="1540"></helptopic>
+	<helptopic act="options" opt="searchperpage" disp="1550"></helptopic>
+	<helptopic act="options" opt="maxresults" disp="1560"></helptopic>
+	<helptopic act="options" opt="allowwildcards" disp="1570"></helptopic>
+	<helptopic act="options" opt="similarthreadsearch" disp="1580"></helptopic>
+	<helptopic act="options" opt="similarthreadthreshold" disp="1590"></helptopic>
+	<helptopic act="options" opt="multimatchscore" disp="1600"></helptopic>
+	<helptopic act="options" opt="datescore" disp="1610"></helptopic>
+	<helptopic act="options" opt="threadtitlescore" disp="1620"></helptopic>
+	<helptopic act="options" opt="posttitlescore" disp="1630"></helptopic>
+	<helptopic act="options" opt="replyscore" disp="1640"></helptopic>
+	<helptopic act="options" opt="replyfunc" disp="1650"></helptopic>
+	<helptopic act="options" opt="viewscore" disp="1660"></helptopic>
+	<helptopic act="options" opt="viewfunc" disp="1670"></helptopic>
+	<helptopic act="options" opt="ratescore" disp="1680"></helptopic>
+	<helptopic act="options" opt="ratefunc" disp="1690"></helptopic>
+	<helptopic act="options" opt="forumhome" disp="1700"></helptopic>
+	<helptopic act="options" opt="displayloggedin" disp="1710"></helptopic>
+	<helptopic act="options" opt="showbirthdays" disp="1720"></helptopic>
+	<helptopic act="options" opt="birthdaydatecut" disp="1730"></helptopic>
+	<helptopic act="options" opt="showevents" disp="1740"></helptopic>
+	<helptopic act="options" opt="showholidays" disp="1750"></helptopic>
+	<helptopic act="options" opt="showeventtype" disp="1760"></helptopic>
+	<helptopic act="options" opt="forumhomedepth" disp="1770"></helptopic>
+	<helptopic act="options" opt="forumdisplaydepth" disp="1780"></helptopic>
+	<helptopic act="options" opt="subforumdepth" disp="1790"></helptopic>
+	<helptopic act="options" opt="showforumdescription" disp="1800"></helptopic>
+	<helptopic act="options" opt="hideprivateforums" disp="1810"></helptopic>
+	<helptopic act="options" opt="showlocks" disp="1820"></helptopic>
+	<helptopic act="options" opt="lastthreadchars" disp="1830"></helptopic>
+	<helptopic act="options" opt="showmoderatorcolumn" disp="1840"></helptopic>
+	<helptopic act="options" opt="showforumusers" disp="1850"></helptopic>
+	<helptopic act="options" opt="maxthreads" disp="1860"></helptopic>
+	<helptopic act="options" opt="showstickies" disp="1870"></helptopic>
+	<helptopic act="options" opt="showdots" disp="1880"></helptopic>
+	<helptopic act="options" opt="usehotthreads" disp="1890"></helptopic>
+	<helptopic act="options" opt="hotnumberviews" disp="1900"></helptopic>
+	<helptopic act="options" opt="hotnumberposts" disp="1910"></helptopic>
+	<helptopic act="options" opt="linktopages" disp="1920"></helptopic>
+	<helptopic act="options" opt="maxmultipage" disp="1930"></helptopic>
+	<helptopic act="options" opt="threadpreview" disp="1940"></helptopic>
+	<helptopic act="options" opt="oneannounce" disp="1950"></helptopic>
+	<helptopic act="options" opt="showthreadusers" disp="1960"></helptopic>
+	<helptopic act="options" opt="maxposts" disp="1970"></helptopic>
+	<helptopic act="options" opt="usermaxposts" disp="1980"></helptopic>
+	<helptopic act="options" opt="showdeficon" disp="1990"></helptopic>
+	<helptopic act="options" opt="enableage" disp="2000"></helptopic>
+	<helptopic act="options" opt="wordwrap" disp="2010"></helptopic>
+	<helptopic act="options" opt="threadvoted" disp="2020"></helptopic>
+	<helptopic act="options" opt="threadsubscribed" disp="2030"></helptopic>
+	<helptopic act="options" opt="showsimilarthreads" disp="2040"></helptopic>
+	<helptopic act="options" opt="allowthreadedmode" disp="2050"></helptopic>
+	<helptopic act="options" opt="threadedmode" disp="2060"></helptopic>
+	<helptopic act="options" opt="threaded_listdepth" disp="2070"></helptopic>
+	<helptopic act="options" opt="threaded_maxcache" disp="2080"></helptopic>
+	<helptopic act="options" opt="enablepms" disp="2090"></helptopic>
+	<helptopic act="options" opt="checknewpm" disp="2100"></helptopic>
+	<helptopic act="options" opt="pmmaxchars" disp="2110"></helptopic>
+	<helptopic act="options" opt="pmfloodtime" disp="2120"></helptopic>
+	<helptopic act="options" opt="pmperpage" disp="2130"></helptopic>
+	<helptopic act="options" opt="pmmaxperpage" disp="2140"></helptopic>
+	<helptopic act="options" opt="privallowicons" disp="2150"></helptopic>
+	<helptopic act="options" opt="privallowbbcode" disp="2160"></helptopic>
+	<helptopic act="options" opt="privallowsmilies" disp="2170"></helptopic>
+	<helptopic act="options" opt="privallowbbimagecode" disp="2180"></helptopic>
+	<helptopic act="options" opt="privallowhtml" disp="2190"></helptopic>
+	<helptopic act="options" opt="WOLenable" disp="2200"></helptopic>
+	<helptopic act="options" opt="WOLrefresh" disp="2210"></helptopic>
+	<helptopic act="options" opt="WOLguests" disp="2220"></helptopic>
+	<helptopic act="options" opt="WOLresolve" disp="2230"></helptopic>
+	<helptopic act="options" opt="enablespiders" disp="2240"></helptopic>
+	<helptopic act="options" opt="spiderstrings" disp="2250"></helptopic>
+	<helptopic act="options" opt="spiderdesc" disp="2260"></helptopic>
+	<helptopic act="options" opt="archiveenabled" disp="2270"></helptopic>
+	<helptopic act="options" opt="archive_threadsperpage" disp="2280"></helptopic>
+	<helptopic act="options" opt="archive_postsperpage" disp="2290"></helptopic>
+	<helptopic act="options" opt="adminquickstats" disp="2300"></helptopic>
+	<helptopic act="options" opt="cpstylefolder" disp="2310"></helptopic>
+	<helptopic act="options" opt="timeoutcontrolpanel" disp="2320"></helptopic>
+	<helptopic act="options" opt="cp_collapse_forums" disp="2330"></helptopic>
+	<helptopic act="options" opt="cp_usereditcolumns" disp="2340"></helptopic>
+	<helptopic act="options" opt="externaljs" disp="2350"></helptopic>
+	<helptopic act="options" opt="externalrss" disp="2360"></helptopic>
+	<helptopic act="options" opt="externalxml" disp="2370"></helptopic>
+	<helptopic act="options" opt="errorlogdatabase" disp="2380"></helptopic>
+	<helptopic act="options" opt="errorlogsecurity" disp="2390"></helptopic>
+	<helptopic act="options" opt="errorlogmaxsize" disp="2400"></helptopic>
+	<helptopic act="options" opt="disableerroremail" disp="2410"></helptopic>
+	<helptopic act="options" opt="subscriptionmethods" disp="2420"></helptopic>
+	<helptopic act="options" opt="ppemail" disp="2430"></helptopic>
+	<helptopic act="options" opt="ncxemail" disp="2440"></helptopic>
+	<helptopic act="options" opt="worldpay_instid" disp="2450"></helptopic>
+	<helptopic act="options" opt="authorize_loginid" disp="2460"></helptopic>
+</helpscript>
+<helpscript name="phrase">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="add" disp="1"></helptopic>
+	<helptopic act="add,edit" opt="phrasetypeid" disp="20"></helptopic>
+	<helptopic act="add,edit" opt="varname" disp="30"></helptopic>
+	<helptopic act="add,edit" opt="text" disp="40"></helptopic>
+	<helptopic act="delete" disp="1"></helptopic>
+	<helptopic act="edit" disp="1"></helptopic>
+	<helptopic act="edit" opt="languageid" disp="10"></helptopic>
+	<helptopic act="findorphans" disp="1"></helptopic>
+	<helptopic act="manageorphans" disp="1"></helptopic>
+	<helptopic act="modify" disp="1"></helptopic>
+	<helptopic act="quickref" disp="1"></helptopic>
+	<helptopic act="search" disp="1"></helptopic>
+	<helptopic act="search" opt="searchstring" disp="20"></helptopic>
+	<helptopic act="search" opt="searchwhere" disp="30"></helptopic>
+	<helptopic act="search" opt="casesensitive" disp="40"></helptopic>
+</helpscript>
+<helpscript name="profilefield">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="add" disp="1"></helptopic>
+	<helptopic act="add,edit" opt="title" disp="20"></helptopic>
+	<helptopic act="add,edit" opt="description" disp="30"></helptopic>
+	<helptopic act="add,edit" opt="data" disp="40"></helptopic>
+	<helptopic act="add,edit" opt="maxlength" disp="50"></helptopic>
+	<helptopic act="add,edit" opt="size" disp="60"></helptopic>
+	<helptopic act="add,edit" opt="newtype" disp="65"></helptopic>
+	<helptopic act="add,edit" opt="height" disp="70"></helptopic>
+	<helptopic act="add,edit" opt="def" disp="120"></helptopic>
+	<helptopic act="add,edit" opt="perline" disp="140"></helptopic>
+	<helptopic act="add,edit" opt="boxheight" disp="150"></helptopic>
+	<helptopic act="add,edit" opt="displayorder" disp="160"></helptopic>
+	<helptopic act="add,edit" opt="required" disp="170"></helptopic>
+	<helptopic act="add,edit" opt="editable" disp="175"></helptopic>
+	<helptopic act="add,edit" opt="hidden" disp="180"></helptopic>
+	<helptopic act="add,edit" opt="searchable" disp="190"></helptopic>
+	<helptopic act="add,edit" opt="memberlist" disp="200"></helptopic>
+	<helptopic act="add,edit" opt="optional" disp="210"></helptopic>
+	<helptopic act="add,edit" opt="regex" disp="240"></helptopic>
+	<helptopic act="add,edit" opt="form" disp="250"></helptopic>
+	<helptopic act="edit" disp="1"></helptopic>
+	<helptopic act="modify" disp="1"></helptopic>
+	<helptopic act="remove" disp="1"></helptopic>
+</helpscript>
+<helpscript name="queries">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="modify" disp="1"></helptopic>
+	<helptopic act="modify" opt="autoquery" disp="10"></helptopic>
+	<helptopic act="modify" opt="query" disp="20"></helptopic>
+	<helptopic act="modify" opt="perpage" disp="30"></helptopic>
+</helpscript>
+<helpscript name="ranks">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="add" disp="1"></helptopic>
+	<helptopic act="add" opt="rankpath" disp="40"></helptopic>
+	<helptopic act="add,edit" opt="ranklevel" disp="10"></helptopic>
+	<helptopic act="add,edit" opt="minposts" disp="20"></helptopic>
+	<helptopic act="add,edit" opt="usergroupid" disp="30"></helptopic>
+	<helptopic act="add,edit" opt="rankhtml" disp="50"></helptopic>
+	<helptopic act="edit" disp="1"></helptopic>
+	<helptopic act="edit" opt="rankimg" disp="40"></helptopic>
+	<helptopic act="modify" disp="1"></helptopic>
+	<helptopic act="remove" disp="1"></helptopic>
+</helpscript>
+<helpscript name="repair">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="list" opt="repairtables" disp="1"></helptopic>
+	<helptopic act="list" disp="1"></helptopic>
+	<helptopic act="list" opt="optimizetables" disp="1"></helptopic>
+</helpscript>
+<helpscript name="replacement">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="add" disp="1"></helptopic>
+	<helptopic act="add" opt="dostyleid" disp="10"></helptopic>
+	<helptopic act="add,edit" opt="findtext" disp="20"></helptopic>
+	<helptopic act="add,edit" opt="replacetext" disp="30"></helptopic>
+	<helptopic act="edit" disp="1"></helptopic>
+	<helptopic act="modify" disp="1"></helptopic>
+	<helptopic act="remove" disp="1"></helptopic>
+</helpscript>
+<helpscript name="resources">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="index" disp="1"></helptopic>
+	<helptopic act="index" opt="forumid" disp="10"></helptopic>
+	<helptopic act="index" opt="usergroupid" disp="20"></helptopic>
+	<helptopic act="view" disp="1"></helptopic>
+	<helptopic act="viewuser" disp="1"></helptopic>
+</helpscript>
+<helpscript name="stats">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="index" disp="1"></helptopic>
+	<helptopic act="reg,activity,thread,post" disp="1"></helptopic>
+	<helptopic act="reg,activity,thread,post" opt="start" disp="10"></helptopic>
+	<helptopic act="reg,activity,thread,post" opt="end" disp="20"></helptopic>
+	<helptopic act="reg,activity,thread,post" opt="scope" disp="30"></helptopic>
+	<helptopic act="reg,activity,thread,post" opt="sort" disp="40"></helptopic>
+	<helptopic act="top" disp="1"></helptopic>
+</helpscript>
+<helpscript name="subscriptions">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="add" disp="1"></helptopic>
+	<helptopic act="add,edit" opt="title" disp="10"></helptopic>
+	<helptopic act="add,edit" opt="description" disp="20"></helptopic>
+	<helptopic act="add,edit" opt="active" disp="30"></helptopic>
+	<helptopic act="add,edit" opt="length" disp="40"></helptopic>
+	<helptopic act="add,edit" opt="sub[cost][usd]" disp="50"></helptopic>
+	<helptopic act="add,edit" opt="sub[cost][gbp]" disp="60"></helptopic>
+	<helptopic act="add,edit" opt="sub[cost][eur]" disp="70"></helptopic>
+	<helptopic act="add,edit" opt="nusergroupid" disp="80"></helptopic>
+	<helptopic act="add,edit" opt="membergroup" disp="90"></helptopic>
+	<helptopic act="adjust" disp="1"></helptopic>
+	<helptopic act="adjust" opt="username" disp="5"></helptopic>
+	<helptopic act="adjust" opt="regdate" disp="10"></helptopic>
+	<helptopic act="adjust" opt="expirydate" disp="20"></helptopic>
+	<helptopic act="adjust" opt="status" disp="30"></helptopic>
+	<helptopic act="edit" disp="1"></helptopic>
+	<helptopic act="find" disp="1"></helptopic>
+	<helptopic act="modify" disp="1"></helptopic>
+	<helptopic act="remove" disp="1"></helptopic>
+</helpscript>
+<helpscript name="template">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="add" opt="dostyleid" disp="10"></helptopic>
+	<helptopic act="add,edit" disp="1"></helptopic>
+	<helptopic act="add,edit" opt="title" disp="20"></helptopic>
+	<helptopic act="add,edit" opt="template" disp="30"></helptopic>
+	<helptopic act="addstyle" disp="1"></helptopic>
+	<helptopic act="addstyle,editstyle,files" opt="parentid" disp="10"></helptopic>
+	<helptopic act="addstyle,editstyle,files" opt="title" disp="20"></helptopic>
+	<helptopic act="addstyle,editstyle,files" opt="userselect" disp="30"></helptopic>
+	<helptopic act="addstyle,editstyle,files" opt="displayorder" disp="40"></helptopic>
+	<helptopic act="delete" disp="1"></helptopic>
+	<helptopic act="deletestyle" disp="1"></helptopic>
+	<helptopic act="editstyle" disp="1"></helptopic>
+	<helptopic act="files" disp="1"></helptopic>
+	<helptopic act="files" opt="dostyleid" disp="10"></helptopic>
+	<helptopic act="files" opt="filename" disp="30"></helptopic>
+	<helptopic act="files" opt="mode" disp="40"></helptopic>
+	<helptopic act="files" opt="stylefile" disp="50"></helptopic>
+	<helptopic act="files" opt="serverfile" disp="60"></helptopic>
+	<helptopic act="files" opt="overwritestyleid" disp="70"></helptopic>
+	<helptopic act="files" opt="anyversion" disp="80"></helptopic>
+	<helptopic act="findupdates" disp="1"></helptopic>
+	<helptopic act="modify" disp="1"></helptopic>
+	<helptopic act="rebuild" disp="1"></helptopic>
+	<helptopic act="revertall" disp="1"></helptopic>
+	<helptopic act="search" disp="1"></helptopic>
+	<helptopic act="search" opt="searchset" disp="10"></helptopic>
+	<helptopic act="search" opt="searchstring" disp="20"></helptopic>
+	<helptopic act="search" opt="titlesonly" disp="30"></helptopic>
+	<helptopic act="search" opt="dostyleid" disp="40"></helptopic>
+	<helptopic act="search" opt="replacestring" disp="50"></helptopic>
+	<helptopic act="search" opt="test" disp="60"></helptopic>
+	<helptopic act="search" opt="regex" disp="70"></helptopic>
+	<helptopic act="view" disp="1"></helptopic>
+</helpscript>
+<helpscript name="thread">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="dothreads,pruneuser" disp="1"></helptopic>
+	<helptopic act="dothreadssel" disp="1"></helptopic>
+	<helptopic act="dovotes" disp="1"></helptopic>
+	<helptopic act="killpoll" disp="1"></helptopic>
+	<helptopic act="killpoll" opt="threadid" disp="10"></helptopic>
+	<helptopic act="move" disp="1"></helptopic>
+	<helptopic act="move" opt="destforumid" disp="5"></helptopic>
+	<helptopic act="prune" disp="1"></helptopic>
+	<helptopic act="prune" opt="username" disp="180"></helptopic>
+	<helptopic act="prune,move" opt="originaldaysolder" disp="10"></helptopic>
+	<helptopic act="prune,move" opt="originaldaysnewer" disp="20"></helptopic>
+	<helptopic act="prune,move" opt="lastdaysolder" disp="30"></helptopic>
+	<helptopic act="prune,move" opt="lastdaysnewer" disp="40"></helptopic>
+	<helptopic act="prune,move" opt="repliesleast" disp="50"></helptopic>
+	<helptopic act="prune,move" opt="repliesmost" disp="60"></helptopic>
+	<helptopic act="prune,move" opt="viewsleast" disp="70"></helptopic>
+	<helptopic act="prune,move" opt="viewsmost" disp="80"></helptopic>
+	<helptopic act="prune,move" opt="issticky" disp="90"></helptopic>
+	<helptopic act="prune,move" opt="isdeleted" disp="100"></helptopic>
+	<helptopic act="prune,move" opt="isopen" disp="110"></helptopic>
+	<helptopic act="prune,move" opt="isvisible" disp="120"></helptopic>
+	<helptopic act="prune,move" opt="isredirect" disp="130"></helptopic>
+	<helptopic act="prune,move" opt="posteduser" disp="140"></helptopic>
+	<helptopic act="prune,move" opt="titlecontains" disp="150"></helptopic>
+	<helptopic act="prune,move" opt="forumid" disp="160"></helptopic>
+	<helptopic act="prune,move" opt="subforums" disp="170"></helptopic>
+	<helptopic act="pruneusersel" disp="1"></helptopic>
+	<helptopic act="removepoll" disp="1"></helptopic>
+	<helptopic act="unsubscribe" disp="1"></helptopic>
+	<helptopic act="unsubscribe" opt="ids" disp="10"></helptopic>
+	<helptopic act="unsubscribe" opt="username" disp="20"></helptopic>
+	<helptopic act="unsubscribe" opt="daysprune" disp="30"></helptopic>
+	<helptopic act="unsubscribe" opt="forumid" disp="40"></helptopic>
+	<helptopic act="votes" disp="1"></helptopic>
+	<helptopic act="votes" opt="pollid" disp="10"></helptopic>
+	<helptopic act="votes" opt="threadtitle" disp="20"></helptopic>
+</helpscript>
+<helpscript name="user">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="add" disp="1"></helptopic>
+	<helptopic act="add" opt="password" disp="30"></helptopic>
+	<helptopic act="add,edit" opt="username" disp="20"></helptopic>
+	<helptopic act="add,edit" opt="email" disp="40"></helptopic>
+	<helptopic act="add,edit" opt="languageid" disp="50"></helptopic>
+	<helptopic act="add,edit" opt="usertitle" disp="60"></helptopic>
+	<helptopic act="add,edit" opt="customtitle" disp="70"></helptopic>
+	<helptopic act="add,edit" opt="homepage" disp="80"></helptopic>
+	<helptopic act="add,edit" opt="birthday" disp="90"></helptopic>
+	<helptopic act="add,edit" opt="signature" disp="100"></helptopic>
+	<helptopic act="add,edit" opt="icq" disp="110"></helptopic>
+	<helptopic act="add,edit" opt="aim" disp="120"></helptopic>
+	<helptopic act="add,edit" opt="yahoo" disp="130"></helptopic>
+	<helptopic act="add,edit" opt="msn" disp="140"></helptopic>
+	<helptopic act="add,edit" opt="coppauser" disp="150"></helptopic>
+	<helptopic act="add,edit" opt="parentemail" disp="160"></helptopic>
+	<helptopic act="add,edit" opt="posts" disp="170"></helptopic>
+	<helptopic act="add,edit" opt="referrer" disp="180"></helptopic>
+	<helptopic act="add,edit" opt="ipaddress" disp="190"></helptopic>
+	<helptopic act="add,edit" opt="usergroupid" disp="200"></helptopic>
+	<helptopic act="add,edit" opt="membergroup" disp="210"></helptopic>
+	<helptopic act="add,edit" opt="showreputation" disp="220"></helptopic>
+	<helptopic act="add,edit" opt="reputation" disp="230"></helptopic>
+	<helptopic act="add,edit" opt="reputationpower" disp="235"></helptopic>
+	<helptopic act="add,edit" opt="adminemail" disp="240"></helptopic>
+	<helptopic act="add,edit" opt="showemail" disp="250"></helptopic>
+	<helptopic act="add,edit" opt="invisible" disp="260"></helptopic>
+	<helptopic act="add,edit" opt="showvcard" disp="265"></helptopic>
+	<helptopic act="add,edit" opt="receivepm" disp="270"></helptopic>
+	<helptopic act="add,edit" opt="emailonpm" disp="280"></helptopic>
+	<helptopic act="add,edit" opt="pmpopup" disp="290"></helptopic>
+	<helptopic act="add,edit" opt="showsignatures" disp="300"></helptopic>
+	<helptopic act="add,edit" opt="showavatars" disp="310"></helptopic>
+	<helptopic act="add,edit" opt="showimages" disp="320"></helptopic>
+	<helptopic act="add,edit" opt="autosubscribe" disp="330"></helptopic>
+	<helptopic act="add,edit" opt="threaddisplaymode" disp="340"></helptopic>
+	<helptopic act="add,edit" opt="showvbcode" disp="350"></helptopic>
+	<helptopic act="add,edit" opt="styleid" disp="360"></helptopic>
+	<helptopic act="add,edit" opt="timezoneoffset" disp="370"></helptopic>
+	<helptopic act="add,edit" opt="dstauto" disp="380"></helptopic>
+	<helptopic act="add,edit" opt="dstonoff" disp="390"></helptopic>
+	<helptopic act="add,edit" opt="daysprune" disp="400"></helptopic>
+	<helptopic act="add,edit" opt="joindate" disp="410"></helptopic>
+	<helptopic act="add,edit" opt="lastvisit" disp="420"></helptopic>
+	<helptopic act="add,edit" opt="lastactivity" disp="430"></helptopic>
+	<helptopic act="add,edit" opt="lastpost" disp="440"></helptopic>
+	<helptopic act="edit" disp="1"></helptopic>
+	<helptopic act="edit" opt="password" disp="30"></helptopic>
+	<helptopic act="editaccess" disp="1"></helptopic>
+	<helptopic act="emailpassword" disp="1"></helptopic>
+	<helptopic act="find" disp="1"></helptopic>
+	<helptopic act="find2" disp="1"></helptopic>
+	<helptopic act="moderate" disp="1"></helptopic>
+	<helptopic act="moderate" opt="send_validated" disp="10"></helptopic>
+	<helptopic act="moderate" opt="send_deleted" disp="20"></helptopic>
+	<helptopic act="modify" disp="1"></helptopic>
+	<helptopic act="modify" opt="username" disp="70"></helptopic>
+	<helptopic act="modify" opt="usergroupid" disp="90"></helptopic>
+	<helptopic act="modify" opt="membergroup" disp="100"></helptopic>
+	<helptopic act="modify" opt="adminemail" disp="105"></helptopic>
+	<helptopic act="modify" opt="email" disp="110"></helptopic>
+	<helptopic act="modify" opt="parentemail" disp="120"></helptopic>
+	<helptopic act="modify" opt="coppauser" disp="130"></helptopic>
+	<helptopic act="modify" opt="homepage" disp="140"></helptopic>
+	<helptopic act="modify" opt="icq" disp="150"></helptopic>
+	<helptopic act="modify" opt="aim" disp="160"></helptopic>
+	<helptopic act="modify" opt="yahoo" disp="170"></helptopic>
+	<helptopic act="modify" opt="msn" disp="175"></helptopic>
+	<helptopic act="modify" opt="signature" disp="180"></helptopic>
+	<helptopic act="modify" opt="usertitle" disp="190"></helptopic>
+	<helptopic act="modify" opt="joindateafter" disp="200"></helptopic>
+	<helptopic act="modify" opt="joindatebefore" disp="210"></helptopic>
+	<helptopic act="modify" opt="lastvisitafter" disp="220"></helptopic>
+	<helptopic act="modify" opt="lastvisitbefore" disp="230"></helptopic>
+	<helptopic act="modify" opt="lastpostafter" disp="240"></helptopic>
+	<helptopic act="modify" opt="lastpostbefore" disp="250"></helptopic>
+	<helptopic act="modify" opt="birthdayafter" disp="260"></helptopic>
+	<helptopic act="modify" opt="birthdaybefore" disp="270"></helptopic>
+	<helptopic act="modify" opt="postslower" disp="280"></helptopic>
+	<helptopic act="modify" opt="postsupper" disp="290"></helptopic>
+	<helptopic act="modify" opt="reputationlower" disp="300"></helptopic>
+	<helptopic act="modify" opt="reputationupper" disp="310"></helptopic>
+	<helptopic act="modify" opt="ipaddress" disp="320"></helptopic>
+	<helptopic act="modify" opt="display[username]" disp="390"></helptopic>
+	<helptopic act="modify" opt="display[options]" disp="400"></helptopic>
+	<helptopic act="modify" opt="display[usergroup]" disp="410"></helptopic>
+	<helptopic act="modify" opt="display[email]" disp="420"></helptopic>
+	<helptopic act="modify" opt="display[parentemail]" disp="430"></helptopic>
+	<helptopic act="modify" opt="display[coppauser]" disp="440"></helptopic>
+	<helptopic act="modify" opt="display[homepage]" disp="450"></helptopic>
+	<helptopic act="modify" opt="display[icq]" disp="460"></helptopic>
+	<helptopic act="modify" opt="display[aim]" disp="470"></helptopic>
+	<helptopic act="modify" opt="display[yahoo]" disp="480"></helptopic>
+	<helptopic act="modify" opt="display[msn]" disp="490"></helptopic>
+	<helptopic act="modify" opt="display[signature]" disp="500"></helptopic>
+	<helptopic act="modify" opt="display[usertitle]" disp="510"></helptopic>
+	<helptopic act="modify" opt="display[joindate]" disp="520"></helptopic>
+	<helptopic act="modify" opt="display[lastvisit]" disp="530"></helptopic>
+	<helptopic act="modify" opt="display[lastpost]" disp="540"></helptopic>
+	<helptopic act="modify" opt="display[posts]" disp="550"></helptopic>
+	<helptopic act="modify" opt="display[reputation]" disp="560"></helptopic>
+	<helptopic act="modify" opt="display[ipaddress]" disp="570"></helptopic>
+	<helptopic act="modify" opt="display[birthday]" disp="580"></helptopic>
+	<helptopic act="modify" opt="orderby" disp="590"></helptopic>
+	<helptopic act="modify" opt="limitstart" disp="610"></helptopic>
+	<helptopic act="modify" opt="limitnumber" disp="620"></helptopic>
+	<helptopic act="prune" disp="1"></helptopic>
+	<helptopic act="prune" opt="usergroupid" disp="20"></helptopic>
+	<helptopic act="prune" opt="daysprune" disp="30"></helptopic>
+	<helptopic act="prune" opt="joindate" disp="40"></helptopic>
+	<helptopic act="prune" opt="minposts" disp="50"></helptopic>
+	<helptopic act="prune" opt="order" disp="60"></helptopic>
+	<helptopic act="pruneusers" disp="1"></helptopic>
+	<helptopic act="remove" disp="1"></helptopic>
+</helpscript>
+<helpscript name="usergroup">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="add" disp="1"></helptopic>
+	<helptopic act="add" opt="ugid_base" disp="750"></helptopic>
+	<helptopic act="add,edit" opt="title" disp="10"></helptopic>
+	<helptopic act="add,edit" opt="description" disp="20"></helptopic>
+	<helptopic act="add,edit" opt="usertitle" disp="30"></helptopic>
+	<helptopic act="add,edit" opt="htmltags" disp="40"></helptopic>
+	<helptopic act="add,edit" opt="passwordexpires" disp="50"></helptopic>
+	<helptopic act="add,edit" opt="passwordhistory" disp="60"></helptopic>
+	<helptopic act="add,edit" opt="showgroup" disp="70"></helptopic>
+	<helptopic act="add,edit" opt="showbirthday" disp="80"></helptopic>
+	<helptopic act="add,edit" opt="showmemberlist" disp="90"></helptopic>
+	<helptopic act="add,edit" opt="allowmembergroups" disp="100"></helptopic>
+	<helptopic act="add,edit" opt="isbannedgroup" disp="110"></helptopic>
+	<helptopic act="add,edit" opt="ispublicgroup" disp="120"></helptopic>
+	<helptopic act="add,edit" opt="canoverride" disp="130"></helptopic>
+	<helptopic act="add,edit" opt="canseehidden" disp="140"></helptopic>
+	<helptopic act="add,edit" opt="canviewmembers" disp="150"></helptopic>
+	<helptopic act="add,edit" opt="canmodifyprofile" disp="160"></helptopic>
+	<helptopic act="add,edit" opt="caninvisible" disp="170"></helptopic>
+	<helptopic act="add,edit" opt="showeditedby" disp="180"></helptopic>
+	<helptopic act="add,edit" opt="canseeraters" disp="190"></helptopic>
+	<helptopic act="add,edit" opt="canusecustomtitle" disp="200"></helptopic>
+	<helptopic act="add,edit" opt="canusesignature" disp="210"></helptopic>
+	<helptopic act="add,edit" opt="canseeprofilepic" disp="220"></helptopic>
+	<helptopic act="add,edit" opt="canseehiddencustomfields" disp="225"></helptopic>
+	<helptopic act="add,edit" opt="canview" disp="230"></helptopic>
+	<helptopic act="add,edit" opt="canviewothers" disp="240"></helptopic>
+	<helptopic act="add,edit" opt="canseedelnotice" disp="250"></helptopic>
+	<helptopic act="add,edit" opt="cansearch" disp="260"></helptopic>
+	<helptopic act="add,edit" opt="canemail" disp="270"></helptopic>
+	<helptopic act="add,edit" opt="cangetattachment" disp="280"></helptopic>
+	<helptopic act="add,edit" opt="canpostnew" disp="290"></helptopic>
+	<helptopic act="add,edit" opt="canreplyown" disp="300"></helptopic>
+	<helptopic act="add,edit" opt="canreplyothers" disp="310"></helptopic>
+	<helptopic act="add,edit" opt="caneditpost" disp="320"></helptopic>
+	<helptopic act="add,edit" opt="candeletepost" disp="330"></helptopic>
+	<helptopic act="add,edit" opt="canmove" disp="340"></helptopic>
+	<helptopic act="add,edit" opt="canopenclose" disp="350"></helptopic>
+	<helptopic act="add,edit" opt="candeletethread" disp="360"></helptopic>
+	<helptopic act="add,edit" opt="isalwaysmoderated" disp="370"></helptopic>
+	<helptopic act="add,edit" opt="canthreadrate" disp="380"></helptopic>
+	<helptopic act="add,edit" opt="canpostattachment" disp="390"></helptopic>
+	<helptopic act="add,edit" opt="attachlimit" disp="400"></helptopic>
+	<helptopic act="add,edit" opt="canpostpoll" disp="410"></helptopic>
+	<helptopic act="add,edit" opt="canvote" disp="420"></helptopic>
+	<helptopic act="add,edit" opt="canuseavatar" disp="430"></helptopic>
+	<helptopic act="add,edit" opt="avatarmaxwidth" disp="440"></helptopic>
+	<helptopic act="add,edit" opt="avatarmaxheight" disp="450"></helptopic>
+	<helptopic act="add,edit" opt="avatarmaxsize" disp="460"></helptopic>
+	<helptopic act="add,edit" opt="canprofilepic" disp="470"></helptopic>
+	<helptopic act="add,edit" opt="profilepicmaxwidth" disp="480"></helptopic>
+	<helptopic act="add,edit" opt="profilepicmaxheight" disp="490"></helptopic>
+	<helptopic act="add,edit" opt="profilepicmaxsize" disp="500"></helptopic>
+	<helptopic act="add,edit" opt="pmquota" disp="510"></helptopic>
+	<helptopic act="add,edit" opt="cantrackpm" disp="520"></helptopic>
+	<helptopic act="add,edit" opt="candenypmreceipts" disp="530"></helptopic>
+	<helptopic act="add,edit" opt="pmsendmax" disp="540"></helptopic>
+	<helptopic act="add,edit" opt="canviewcalendar" disp="550"></helptopic>
+	<helptopic act="add,edit" opt="canpostevent" disp="560"></helptopic>
+	<helptopic act="add,edit" opt="caneditevent" disp="570"></helptopic>
+	<helptopic act="add,edit" opt="candeleteevent" disp="580"></helptopic>
+	<helptopic act="add,edit" opt="canviewothersevent" disp="590"></helptopic>
+	<helptopic act="add,edit" opt="canwhosonline" disp="600"></helptopic>
+	<helptopic act="add,edit" opt="canwhosonlinefull" disp="610"></helptopic>
+	<helptopic act="add,edit" opt="canwhosonlineip" disp="620"></helptopic>
+	<helptopic act="add,edit" opt="canwhosonlinebad" disp="630"></helptopic>
+	<helptopic act="add,edit" opt="canwhosonlinelocation" disp="640"></helptopic>
+	<helptopic act="add,edit" opt="canviewownusernotes" disp="650"></helptopic>
+	<helptopic act="add,edit" opt="canmanageownusernotes" disp="660"></helptopic>
+	<helptopic act="add,edit" opt="canpostownusernotes" disp="670"></helptopic>
+	<helptopic act="add,edit" opt="canviewothersusernotes" disp="680"></helptopic>
+	<helptopic act="add,edit" opt="canmanageothersusernotes" disp="690"></helptopic>
+	<helptopic act="add,edit" opt="canpostothersusernotes" disp="700"></helptopic>
+	<helptopic act="add,edit" opt="caneditownusernotes" disp="710"></helptopic>
+	<helptopic act="add,edit" opt="canbeusernoted" disp="720"></helptopic>
+	<helptopic act="add,edit" opt="ismoderator" disp="730"></helptopic>
+	<helptopic act="add,edit" opt="cancontrolpanel" disp="740"></helptopic>
+	<helptopic act="add,edit" opt="canuserep" disp="750"></helptopic>
+	<helptopic act="add,edit" opt="cannegativerep" disp="750"></helptopic>
+	<helptopic act="add,edit" opt="canseeownrep" disp="760"></helptopic>
+	<helptopic act="add,edit" opt="canhiderep" disp="770"></helptopic>
+	<helptopic act="add,edit" opt="canseeothersrep" disp="780"></helptopic>
+	<helptopic act="addleader" disp="1"></helptopic>
+	<helptopic act="addleader" opt="usergroupid" disp="10"></helptopic>
+	<helptopic act="addleader" opt="username" disp="20"></helptopic>
+	<helptopic act="edit" disp="1"></helptopic>
+	<helptopic act="modify" disp="1"></helptopic>
+	<helptopic act="modifypromotion" disp="1"></helptopic>
+	<helptopic act="remove" disp="1"></helptopic>
+	<helptopic act="removeleader" disp="1"></helptopic>
+	<helptopic act="removepromotion" disp="1"></helptopic>
+	<helptopic act="updatepromotion" disp="1"></helptopic>
+	<helptopic act="updatepromotion" opt="usergroupid" disp="5"></helptopic>
+	<helptopic act="updatepromotion" opt="reputationtype" disp="10"></helptopic>
+	<helptopic act="updatepromotion" opt="reputation" disp="20"></helptopic>
+	<helptopic act="updatepromotion" opt="date" disp="30"></helptopic>
+	<helptopic act="updatepromotion" opt="posts" disp="40"></helptopic>
+	<helptopic act="updatepromotion" opt="strategy" disp="50"></helptopic>
+	<helptopic act="updatepromotion" opt="type" disp="60"></helptopic>
+	<helptopic act="updatepromotion" opt="joinusergroupid" disp="70"></helptopic>
+	<helptopic act="viewjoinrequests" disp="1"></helptopic>
+</helpscript>
+<helpscript name="usertitle">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="add" disp="1"></helptopic>
+	<helptopic act="add,edit" opt="title" disp="10"></helptopic>
+	<helptopic act="add,edit" opt="minposts" disp="20"></helptopic>
+	<helptopic act="edit" disp="1"></helptopic>
+	<helptopic act="modify" disp="1"></helptopic>
+	<helptopic act="remove" disp="1"></helptopic>
+</helpscript>
+<helpscript name="usertools">
+	<helptopic disp="1"></helptopic>
+	<helptopic act="doips" disp="1"></helptopic>
+	<helptopic act="doips" opt="ipaddress" disp="20"></helptopic>
+	<helptopic act="doips" opt="username" disp="30"></helptopic>
+	<helptopic act="doips" opt="depth" disp="40"></helptopic>
+	<helptopic act="domerge" disp="1"></helptopic>
+	<helptopic act="gethost" disp="1"></helptopic>
+	<helptopic act="merge" disp="1"></helptopic>
+	<helptopic act="merge" opt="sourceuser" disp="10"></helptopic>
+	<helptopic act="merge" opt="destuser" disp="20"></helptopic>
+	<helptopic act="pmfolderstats" disp="1"></helptopic>
+	<helptopic act="pmstats" disp="1"></helptopic>
+	<helptopic act="pmuserstats" disp="1"></helptopic>
+	<helptopic act="referrers" disp="1"></helptopic>
+	<helptopic act="referrers" opt="startdate" disp="10"></helptopic>
+	<helptopic act="referrers" opt="enddate" disp="20"></helptopic>
+	<helptopic act="removepms" disp="1"></helptopic>
+	<helptopic act="removesentpms" disp="1"></helptopic>
+	<helptopic act="removesubs" disp="1"></helptopic>
+	<helptopic act="showreferrals" disp="1"></helptopic>
+	<helptopic act="showreferrers" disp="1"></helptopic>
+</helpscript>
+</helptopics>
