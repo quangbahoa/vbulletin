@@ -1,0 +1,66 @@
+<script type="text/javascript" language="JavaScript">
+// # CVS: $RCSfile$ - $Revision: 7771 $
+//
+// script to do active cell rollovers
+// to disable this script, edit the headinclude
+// template, and remove references to .alt1Active (etc)
+
+element.defClass = element.className;
+
+element.attachEvent("onmouseover", fnOver);
+element.attachEvent("onmouseout", fnOut);
+element.attachEvent("onclick", fnLink);
+
+// #############################################################################
+function fnOver()
+{
+	element.style.cursor = "hand";
+	element.className = ((element.defClass == "alt1Active") ? "alt2Active" : "alt1Active");
+}
+
+// #############################################################################
+function fnOut()
+{
+	element.className = element.defClass;
+}
+
+// #############################################################################
+function fnLink()
+{
+	var re = new RegExp("^([a-z]){1}(.*)$");
+	var r = element.id.match(re);
+	var script = new String();
+	switch(r[1])
+	{
+		case "u":
+			script = "member.php?" + SESSIONURL + "u=";
+			break;
+		case "t":
+			script = "showthread.php?" + SESSIONURL + "t=";
+			break;
+		case "p":
+			script = "showthread.php?" + SESSIONURL + "p=";
+			break;
+		case "f":
+			script = "forumdisplay.php?" + SESSIONURL + "f=";
+			break;
+		case "m":
+			script = "private.php?" + SESSIONURL + "do=showpm&pmid=";
+			break;
+	}
+	if (script != '')
+	{
+		if (event.shiftKey)
+		{
+			window.open(script + r[2]);
+			//alert("window.open(" + script + r[2]);
+		}
+		else
+		{
+			window.location = script + r[2];
+			//alert("window.location = " + script + r[2]);
+		}
+	}
+}
+
+</script>
