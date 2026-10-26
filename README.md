@@ -1,6 +1,6 @@
 # vBulletin Legacy Archive
 
-An archive of source code for old **vBulletin 3.x** releases, kept for reference, study, and as a way to restore or migrate legacy forums.
+An archive of source code for old **vBulletin 3.x** releases, along with community styles and mods, kept for reference, study, and as a way to restore or migrate legacy forums.
 
 > ⚠️ **These versions are end-of-life.** They no longer get security updates, they have known vulnerabilities, and they do not run on modern PHP. Do **not** put them on a public production server. Use them only in local or isolated environments.
 
@@ -26,9 +26,16 @@ vX.Y.Z/
 └── vb3_readme.html      # Official install/upgrade guide for that version
 ```
 
-## Styles — Contributions Welcome
+## Contributions Welcome
 
-The [`styles/`](styles/) folder collects styles and skins for vBulletin 3.x. If you still have an old style from your forum, please send a pull request. Even an incomplete one (just the XML or just the images) helps. See [`styles/README.md`](styles/README.md) for the folder layout and how to export a style from the AdminCP.
+This repo also collects community add-ons for vBulletin 3.x. If you still have old styles or mods from your forum, please send a pull request. Incomplete ones are welcome too.
+
+| Folder                 | What goes there                                   | Guide                                    |
+| ---------------------- | ------------------------------------------------- | ---------------------------------------- |
+| [`styles/`](styles/)   | Styles and skins (style XML, images, screenshots) | [`styles/README.md`](styles/README.md)   |
+| [`mods/`](mods/)       | Mods, hacks, plugins and products                 | [`mods/README.md`](mods/README.md)       |
+
+Each guide explains the folder layout, how to export from the AdminCP, and what to include. Please credit the original author whenever you know it.
 
 ## Quick Start (v3.8.11 with pre-installed database)
 
